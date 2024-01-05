@@ -6,7 +6,7 @@ import { FaQuestionCircle, FaSearch } from 'react-icons/fa'
 
 const Header = () => {
     return (
-        <header>
+        <header className='relative z-20 bg-white shadow-md'>
             <div className="container">
                 <div className="flex justify-between items-center py-5 gap-2">
                     <Link to="/" className="text-2xl font-bold text-gray-800">
