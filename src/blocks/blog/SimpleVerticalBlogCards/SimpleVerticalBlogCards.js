@@ -8,8 +8,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
 import Chip from '@mui/material/Chip';
+import Container from '../../../components/Container';
 
-import Container from 'components/Container';
+
 
 const mock = [
   {

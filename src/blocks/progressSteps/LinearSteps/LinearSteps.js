@@ -7,8 +7,7 @@ import Step from '@mui/material/Step';
 import StepButton from '@mui/material/StepButton';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
-import Container from 'components/Container';
+import Container from '../../../components/Container';
 
 const steps = [
   {
@@ -65,7 +64,7 @@ const LinearSteps = () => {
     const newActiveStep =
       isLastStep() && !allStepsCompleted()
         ? // It's the last step, but not all steps have been completed,
-      // find the first step that has been completed
+        // find the first step that has been completed
         steps.findIndex((step, i) => !(i in completed))
         : activeStep + 1;
 
@@ -108,7 +107,7 @@ const LinearSteps = () => {
                 '& .MuiButtonBase-root': {
                   position: 'relative',
                   bgcolor:
-                    activeStep === index ? 'primary.main' : 'alternate.main',
+                    activeStep === index ? '#007bff' : 'white',
                   color: activeStep === index ? 'text.primary' : 'common.white',
                   height: theme.spacing(6),
                   padding: theme.spacing(0, 3),
@@ -120,7 +119,7 @@ const LinearSteps = () => {
                 '& .MuiSvgIcon-root.Mui-active': {
                   color: theme.palette.common.white,
                   '& .MuiStepIcon-text': {
-                    fill: theme.palette.primary.main,
+                    fill: '#007bff',
                   },
                 },
               }}
@@ -136,11 +135,10 @@ const LinearSteps = () => {
                       height: 0,
                       borderTop: `${theme.spacing(3)} solid transparent`,
                       borderBottom: `${theme.spacing(3)} solid transparent`,
-                      borderLeft: `${theme.spacing(2)} solid ${
-                        activeStep === index
-                          ? theme.palette.primary.main
-                          : theme.palette.alternate.main
-                      }`,
+                      borderLeft: `${theme.spacing(2)} solid ${activeStep === index
+                          ? '#007bff'
+                          : 'white'
+                        }`,
                       transform: `translateX(${theme.spacing(0)})`,
                       zIndex: 2,
                     }}

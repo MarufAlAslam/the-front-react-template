@@ -1,7 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-
-import Container from 'components/Container';
+import Container from '../../../components/Container';
 
 const mock = [
   'https://assets.maccarianagency.com/svg/logos/airbnb-original.svg',
