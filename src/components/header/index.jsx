@@ -1,14 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.svg";
-import {
-  CiCircleQuestion,
-  CiGlobe,
-  CiMenuBurger,
-  CiSearch,
-  CiUser,
-} from "react-icons/ci";
+import { CiCircleQuestion, CiGlobe, CiSearch, CiUser } from "react-icons/ci";
 import { HiOutlineChevronDown } from "react-icons/hi2";
+import { FiMenu } from "react-icons/fi";
 
 // import { FaQuestionCircle, FaSearch } from "react-icons/fa";
 
@@ -57,7 +52,7 @@ const Header = () => {
                   to="/"
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
-                  <span>Chat</span>
+                  <span>Pricing</span>
                   <HiOutlineChevronDown />
                 </Link>
               </li>
@@ -66,7 +61,7 @@ const Header = () => {
                   to="/"
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
-                  <span>Pricing</span>
+                  <span>Chatbot</span>
                   <HiOutlineChevronDown />
                 </Link>
               </li>
@@ -96,8 +91,11 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  <CiMenuBurger className="text-2xl" />
+                <Link
+                  to="/"
+                  className="text-gray-800 hover:text-gray-600 border-2 border-blue-500 flex rounded-[4px] min-w-[45px] min-h-[45px] justify-center items-center"
+                >
+                  <FiMenu className="text-2xl text-blue-500" />
                 </Link>
               </li>
             </ul>
