@@ -311,7 +311,7 @@ const Footer = () => {
 
 
       </div>
-      <div className="bottom-footerr mt-10 border-t border-blue-500 pt-10">
+      <div className="bottom-footerr mt-10 border-t pt-10">
         <div className="container">
           <div className="flex justify-between items-center">
             <Link to="/" className="text-2xl font-bold text-gray-800">
