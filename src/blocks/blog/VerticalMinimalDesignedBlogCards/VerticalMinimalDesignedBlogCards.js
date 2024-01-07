@@ -1,67 +1,345 @@
-import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import Divider from '@mui/material/Divider';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-import Avatar from '@mui/material/Avatar';
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+import Divider from "@mui/material/Divider";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Box from "@mui/material/Box";
+// import Button from "@mui/material/Button";
+// import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import Avatar from "@mui/material/Avatar";
+// import Container from "../../../components/Container";
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const mock = [
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img2.jpg',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    title: 'Lorem ipsum dolor sit amet,',
+    image: "https://assets.maccarianagency.com/backgrounds/img2.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Lorem ipsum dolor sit amet,",
     author: {
-      name: 'Clara Bertoletti',
-      avatar: 'https://assets.maccarianagency.com/avatars/img4.jpg',
+      name: "Clara Bertoletti",
+      avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
     },
-    date: '04 Aug',
+    date: "04 Aug",
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img3.jpg',
-    description: 'Excepteur sint occaecat cupidatat non proident',
-    title: 'Consectetur adipiscing elit',
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
     author: {
-      name: 'Jhon Anderson',
-      avatar: 'https://assets.maccarianagency.com/avatars/img5.jpg',
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
     },
-    date: '12 Sep',
+    date: "12 Sep",
   },
   {
-    image: 'https://assets.maccarianagency.com/backgrounds/img4.jpg',
-    description: 'Eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
-    title: 'Labore et dolore magna aliqua',
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
     author: {
-      name: 'Chary Smith',
-      avatar: 'https://assets.maccarianagency.com/avatars/img6.jpg',
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
     },
-    date: '22 Nov',
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img2.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Lorem ipsum dolor sit amet,",
+    author: {
+      name: "Clara Bertoletti",
+      avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
+    },
+    date: "04 Aug",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img2.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Lorem ipsum dolor sit amet,",
+    author: {
+      name: "Clara Bertoletti",
+      avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
+    },
+    date: "04 Aug",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img2.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Lorem ipsum dolor sit amet,",
+    author: {
+      name: "Clara Bertoletti",
+      avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
+    },
+    date: "04 Aug",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img2.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Lorem ipsum dolor sit amet,",
+    author: {
+      name: "Clara Bertoletti",
+      avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
+    },
+    date: "04 Aug",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img2.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Lorem ipsum dolor sit amet,",
+    author: {
+      name: "Clara Bertoletti",
+      avatar: "https://assets.maccarianagency.com/avatars/img4.jpg",
+    },
+    date: "04 Aug",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img3.jpg",
+    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Consectetur adipiscing elit",
+    author: {
+      name: "Jhon Anderson",
+      avatar: "https://assets.maccarianagency.com/avatars/img5.jpg",
+    },
+    date: "12 Sep",
+  },
+  {
+    image: "https://assets.maccarianagency.com/backgrounds/img4.jpg",
+    description: "Eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    title: "Labore et dolore magna aliqua",
+    author: {
+      name: "Chary Smith",
+      avatar: "https://assets.maccarianagency.com/avatars/img6.jpg",
+    },
+    date: "22 Nov",
   },
 ];
 
 const VerticalMinimalDesignedBlogCards = () => {
   const theme = useTheme();
+  const [length, setLength] = React.useState(5);
+
+  const loadMoreHandler = () => {
+    if (length <= 30) {
+      setLength(length + 5);
+    }
+  };
   return (
-    <Container>
-      <Grid container spacing={4}>
-        {mock.map((item, i) => (
+    <div className="container">
+      <div className="grid grid-cols-5 gap-[16px]">
+        {mock.slice(0, length).map((item, i) => (
           <Grid item xs={12} md={4} key={i}>
             <Box
-              component={'a'}
-              href={''}
-              display={'block'}
+              component={"a"}
+              href={""}
+              display={"block"}
               width={1}
               height={1}
               sx={{
-                textDecoration: 'none',
-                transition: 'all .2s ease-in-out',
-                '&:hover': {
+                textDecoration: "none",
+                transition: "all .2s ease-in-out",
+                "&:hover": {
                   transform: `translateY(-${theme.spacing(1 / 2)})`,
                 },
               }}
@@ -71,84 +349,62 @@ const VerticalMinimalDesignedBlogCards = () => {
                 width={1}
                 height={1}
                 boxShadow={4}
-                display={'flex'}
-                flexDirection={'column'}
-                sx={{ backgroundImage: 'none' }}
+                display={"flex"}
+                flexDirection={"column"}
+                sx={{ backgroundImage: "none" }}
               >
                 <CardMedia
                   image={item.image}
                   title={item.title}
                   sx={{
-                    height: { xs: 300, md: 360 },
-                    position: 'relative',
+                    height: { xs: 150, md: 150 },
+                    position: "relative",
                   }}
                 />
-                <Box component={CardContent} position={'relative'}>
-                  <Typography variant={'h6'} gutterBottom>
-                    {item.title}
-                  </Typography>
-                  <Typography color="text.secondary">
+                <Box component={CardContent} position={"relative"}>
+                  <h3 className="font-bold">{item.title}</h3>
+                  <p className="text-sm text-gray-400 mt-2">
                     {item.description}
-                  </Typography>
+                  </p>
                 </Box>
                 <Box flexGrow={1} />
-                <Box padding={2} display={'flex'} flexDirection={'column'}>
+                <Box padding={2} display={"flex"} flexDirection={"column"}>
                   <Box marginBottom={2}>
                     <Divider />
                   </Box>
                   <Box
-                    display={'flex'}
-                    justifyContent={'space-between'}
-                    alignItems={'center'}
+                    display={"flex"}
+                    justifyContent={"space-between"}
+                    alignItems={"center"}
                   >
-                    <Box display={'flex'} alignItems={'center'}>
+                    <Box display={"flex"} alignItems={"center"}>
                       <Avatar
                         src={item.author.avatar}
                         sx={{ marginRight: 1 }}
                       />
-                      <Typography color={'text.secondary'}>
+                      <p className="text-sm text-gray-500">
                         {item.author.name}
-                      </Typography>
+                      </p>
                     </Box>
-                    <Typography color={'text.secondary'}>
+                    {/* <Typography color={"text.secondary"}>
                       {item.date}
-                    </Typography>
+                    </Typography> */}
                   </Box>
                 </Box>
               </Box>
             </Box>
           </Grid>
         ))}
-        <Grid item container justifyContent={'center'} xs={12}>
-          <Button
-            fullWidth
-            variant={'outlined'}
-            size={'large'}
-            sx={{ height: 54, maxWidth: 400, justifyContent: 'space-between' }}
-            endIcon={
-              <Box
-                component={'svg'}
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                width={24}
-                height={24}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </Box>
-            }
-          >
-            Load More
-          </Button>
-        </Grid>
-      </Grid>
-    </Container>
+      </div>
+      <div className="text-center mt-10">
+        <button
+          onClick={loadMoreHandler}
+          className="bg-white hover:bg-[#1976D2] text-[#1976D2] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1976D2] px-10 py-2 rounded-[5px]"
+        >
+          Load More
+        </button>
+      </div>
+    </div>
   );
 };
 

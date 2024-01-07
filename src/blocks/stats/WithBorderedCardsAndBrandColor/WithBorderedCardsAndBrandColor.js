@@ -1,21 +1,22 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme } from '@mui/material/styles';
+import React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
+import Avatar from "@mui/material/Avatar";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
+// import Container from "../../../components/Container";
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const mock = [
   {
-    number: '1000+',
-    title: 'Online Courses',
-    subtitle: 'Choose from over 1000+ online video courses.',
+    number: "1000+",
+    title: "Online Courses",
+    subtitle: "Choose from over 1000+ online video courses.",
     icon: (
       <svg
         height={24}
@@ -35,9 +36,9 @@ const mock = [
     ),
   },
   {
-    number: '800+',
-    title: 'Expert Instructors',
-    subtitle: 'Expert instructors to make sure courses are well.',
+    number: "800+",
+    title: "Expert Instructors",
+    subtitle: "Expert instructors to make sure courses are well.",
     icon: (
       <svg
         height={24}
@@ -57,9 +58,9 @@ const mock = [
     ),
   },
   {
-    number: '100K+',
-    title: 'Active Students',
-    subtitle: '100K+ active students arround the world.',
+    number: "100K+",
+    title: "Active Students",
+    subtitle: "100K+ active students arround the world.",
     icon: (
       <svg
         height={24}
@@ -81,9 +82,9 @@ const mock = [
     ),
   },
   {
-    number: '400+',
-    title: 'Free Resources',
-    subtitle: 'Free resources for all students arround the world.',
+    number: "400+",
+    title: "Free Resources",
+    subtitle: "Free resources for all students arround the world.",
     icon: (
       <svg
         height={24}
@@ -106,117 +107,119 @@ const mock = [
 
 const WithBorderedCardsAndBrandColor = () => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+  const isMd = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true,
   });
 
   return (
-    <Container>
-      <Box>
-        <Box marginBottom={4}>
-          <Typography
-            sx={{
-              textTransform: 'uppercase',
-              fontWeight: 'medium',
-            }}
-            gutterBottom
-            color={'secondary'}
-            align={'center'}
-          >
-            Numbers
-          </Typography>
-          <Typography
-            variant="h4"
-            align={'center'}
-            gutterBottom
-            sx={{
-              fontWeight: 700,
-            }}
-          >
-            Our global class is open for all
-          </Typography>
-          <Typography variant="h6" align={'center'} color={'text.secondary'}>
-            The best way to learn is by using skills.
-            <br />
-            That's why every class has a project that lets you practice and get
-            feedback.
-          </Typography>
-          <Box
-            display="flex"
-            flexDirection={{ xs: 'column', sm: 'row' }}
-            alignItems={{ xs: 'stretched', sm: 'flex-start' }}
-            justifyContent={'center'}
-            marginTop={2}
-          >
-            <Button
-              variant="contained"
-              color="primary"
-              size="large"
-              fullWidth={isMd ? false : true}
+    <div className="py-10">
+      <div className="container">
+        <Box>
+          <Box marginBottom={4}>
+            <Typography
+              sx={{
+                textTransform: "uppercase",
+                fontWeight: "medium",
+              }}
+              gutterBottom
+              color={"secondary"}
+              align={"left"}
             >
-              Book a tutor
-            </Button>
+              Numbers
+            </Typography>
+            <Typography
+              variant="h4"
+              align={"left"}
+              gutterBottom
+              sx={{
+                fontWeight: 700,
+              }}
+            >
+              Our global class is open for all
+            </Typography>
+            <Typography variant="h6" align={"left"} color={"text.secondary"}>
+              The best way to learn is by using skills.
+              <br />
+              That's why every class has a project that lets you practice and
+              get feedback.
+            </Typography>
             <Box
-              component={Button}
-              variant="outlined"
-              color="primary"
-              size="large"
-              marginTop={{ xs: 2, sm: 0 }}
-              marginLeft={{ sm: 2 }}
-              fullWidth={isMd ? false : true}
+              display="flex"
+              flexDirection={{ xs: "column", sm: "row" }}
+              alignItems={{ xs: "stretched", sm: "flex-start" }}
+              justifyContent={"left"}
+              marginTop={2}
             >
-              Explore more
+              <Button
+                variant="contained"
+                color="primary"
+                size="large"
+                fullWidth={isMd ? false : true}
+              >
+                Book a tutor
+              </Button>
+              <Box
+                component={Button}
+                variant="outlined"
+                color="primary"
+                size="large"
+                marginTop={{ xs: 2, sm: 0 }}
+                marginLeft={{ sm: 2 }}
+                fullWidth={isMd ? false : true}
+              >
+                Explore more
+              </Box>
             </Box>
           </Box>
-        </Box>
-        <Box>
-          <Grid container spacing={4}>
-            {mock.map((item, i) => (
-              <Grid item xs={12} sm={6} md={3} key={i}>
-                <Box
-                  component={Card}
-                  padding={4}
-                  width={1}
-                  height={1}
-                  variant={'outlined'}
-                >
-                  <Box display={'flex'} flexDirection={'column'}>
-                    <Box
-                      component={Avatar}
-                      width={50}
-                      height={50}
-                      marginBottom={2}
-                      bgcolor={theme.palette.primary.main}
-                      color={theme.palette.background.paper}
-                    >
-                      {item.icon}
+          <Box>
+            <Grid container spacing={4}>
+              {mock.map((item, i) => (
+                <Grid item xs={12} sm={6} md={3} key={i}>
+                  <Box
+                    component={Card}
+                    padding={4}
+                    width={1}
+                    height={1}
+                    variant={"outlined"}
+                  >
+                    <Box display={"flex"} flexDirection={"column"}>
+                      <Box
+                        component={Avatar}
+                        width={50}
+                        height={50}
+                        marginBottom={2}
+                        bgcolor={theme.palette.primary.main}
+                        color={theme.palette.background.paper}
+                      >
+                        {item.icon}
+                      </Box>
+                      <Typography
+                        variant={"h4"}
+                        color={"primary"}
+                        gutterBottom
+                        sx={{ fontWeight: 700 }}
+                      >
+                        {item.number}
+                      </Typography>
+                      <Typography
+                        variant={"h6"}
+                        gutterBottom
+                        sx={{ fontWeight: 500 }}
+                      >
+                        {item.title}
+                      </Typography>
+                      <Typography color="text.secondary">
+                        {item.subtitle}
+                      </Typography>
                     </Box>
-                    <Typography
-                      variant={'h4'}
-                      color={'primary'}
-                      gutterBottom
-                      sx={{ fontWeight: 700 }}
-                    >
-                      {item.number}
-                    </Typography>
-                    <Typography
-                      variant={'h6'}
-                      gutterBottom
-                      sx={{ fontWeight: 500 }}
-                    >
-                      {item.title}
-                    </Typography>
-                    <Typography color="text.secondary">
-                      {item.subtitle}
-                    </Typography>
                   </Box>
-                </Box>
-              </Grid>
-            ))}
-          </Grid>
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
         </Box>
-      </Box>
-    </Container>
+      </div>
+    </div>
   );
 };
 

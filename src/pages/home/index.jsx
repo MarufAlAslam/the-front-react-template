@@ -1,27 +1,24 @@
-import React from 'react'
-import Header from '../../components/header'
-import Hero from '../../views/IndexView/components/Hero/Hero'
-import LinearSteps from "../../blocks/progressSteps/LinearSteps/LinearSteps"
-import BlogWithLargeImage from '../../blocks/blog/BlogWithLargeImage/BlogWithLargeImage'
-import LogoGrid from '../../blocks/logoGrid/WithSwiperAndBrandBackgroundColor/WithSwiperAndBrandBackgroundColor'
-import WithCountUpNumbersAndCoverImage from '../../blocks/stats/WithCountUpNumbersAndCoverImage/WithCountUpNumbersAndCoverImage'
-import MostViewedArticles from '../../views/BlogNewsroom/components/MostViewedArticles/MostViewedArticles'
+import React from "react";
+import Header from "../../components/header";
+import Hero from "../../views/DesktopApp/components/Hero/Hero";
+import VerticalStepper from "../../blocks/progressSteps/VerticalStepper/VerticalStepper";
+import VerticalMinimalDesignedBlogCards from "../../blocks/blog/VerticalMinimalDesignedBlogCards/VerticalMinimalDesignedBlogCards";
+import WithBorderedCardsAndBrandColor from "../../blocks/stats/WithBorderedCardsAndBrandColor/WithBorderedCardsAndBrandColor";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+import Footer from "../../components/footer";
 
 const Homepage = () => {
-    return (
-        <>
-            <Header />
-            <Hero />
-            <LinearSteps />
-            <BlogWithLargeImage />
-            <BlogWithLargeImage />
-            <BlogWithLargeImage />
-            <BlogWithLargeImage />
-            <LogoGrid />
-            <WithCountUpNumbersAndCoverImage />
-            <MostViewedArticles />
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <Hero />
+      <VerticalStepper />
+      <VerticalMinimalDesignedBlogCards />
+      <WithBorderedCardsAndBrandColor />
+      <CtaWithInputField />
+      <Footer />
+    </>
+  );
+};
 
-export default Homepage
+export default Homepage;
