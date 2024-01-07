@@ -1,7 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.svg";
-import { CiCircleQuestion, CiGlobe, CiSearch, CiUser } from "react-icons/ci";
+import {
+  CiCircleQuestion,
+  CiGlobe,
+  CiMenuBurger,
+  CiSearch,
+  CiUser,
+} from "react-icons/ci";
+import { HiOutlineChevronDown } from "react-icons/hi2";
 
 // import { FaQuestionCircle, FaSearch } from "react-icons/fa";
 
@@ -19,23 +26,48 @@ const Header = () => {
           <div className="w-8/12">
             <ul className="flex justify-center items-center gap-7">
               <li>
-                <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  Branches
+                <Link
+                  to="/"
+                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                >
+                  <span>Overview</span>
+                  <HiOutlineChevronDown />
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  Functions
+                <Link
+                  to="/"
+                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                >
+                  <span>Branches</span>
+                  <HiOutlineChevronDown />
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  Chat
+                <Link
+                  to="/"
+                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                >
+                  <span>Functions</span>
+                  <HiOutlineChevronDown />
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  Pricing
+                <Link
+                  to="/"
+                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                >
+                  <span>Chat</span>
+                  <HiOutlineChevronDown />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/"
+                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                >
+                  <span>Pricing</span>
+                  <HiOutlineChevronDown />
                 </Link>
               </li>
             </ul>
@@ -61,6 +93,11 @@ const Header = () => {
               <li>
                 <Link to="/" className="text-gray-800 hover:text-gray-600">
                   <CiUser className="text-2xl" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="text-gray-800 hover:text-gray-600">
+                  <CiMenuBurger className="text-2xl" />
                 </Link>
               </li>
             </ul>
