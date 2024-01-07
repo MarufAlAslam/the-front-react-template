@@ -25,7 +25,7 @@ const Header = () => {
                   to="/"
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
-                  <span>Overview</span>
+                  <span>Company</span>
                   <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
