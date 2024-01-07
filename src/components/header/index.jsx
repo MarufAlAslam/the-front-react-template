@@ -93,7 +93,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 hover:text-gray-600 border-2 border-blue-500 flex rounded-[4px] min-w-[45px] min-h-[45px] justify-center items-center"
+                  className="text-gray-800 hover:text-gray-600 border-2 border-gray-300 flex rounded-[4px] min-w-[45px] min-h-[45px] justify-center items-center"
                 >
                   <FiMenu className="text-2xl text-blue-500" />
                 </Link>
