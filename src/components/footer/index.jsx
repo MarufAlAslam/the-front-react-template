@@ -26,7 +26,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="uppercase text-black font-bold">Careers</h3>
+            <h3 className="text-black font-bold">Careers</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
                 Explore
@@ -46,7 +46,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="uppercase text-black font-bold">Press</h3>
+            <h3 className="text-black font-bold">Press</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
                 Media Coverage
@@ -126,7 +126,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="uppercase text-black font-bold">Cookies</h3>
+            <h3 className="text-black font-bold">Cookies</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
                 Cookie Policy
