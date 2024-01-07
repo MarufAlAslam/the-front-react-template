@@ -353,14 +353,15 @@ const VerticalMinimalDesignedBlogCards = () => {
                 flexDirection={"column"}
                 sx={{ backgroundImage: "none" }}
               >
-                <CardMedia
+                {/* <CardMedia
                   image={item.image}
                   title={item.title}
                   sx={{
                     height: { xs: 150, md: 150 },
                     position: "relative",
                   }}
-                />
+                /> */}
+                <div className="w-full h-[150px] bg-gray-600"></div>
                 <Box component={CardContent} position={"relative"}>
                   <h3 className="font-bold">{item.title}</h3>
                   <p className="text-sm text-gray-400 mt-2">
@@ -379,7 +380,8 @@ const VerticalMinimalDesignedBlogCards = () => {
                   >
                     <Box display={"flex"} alignItems={"center"}>
                       <Avatar
-                        src={item.author.avatar}
+                        className="w-8 h-8 bg-gray-600"
+                        // src={item.author.avatar}
                         sx={{ marginRight: 1 }}
                       />
                       <p className="text-sm text-gray-500">

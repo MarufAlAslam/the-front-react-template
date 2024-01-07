@@ -87,23 +87,7 @@ const Hero = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <Box
-              component={"img"}
-              loading="lazy"
-              height={1}
-              width={1}
-              src={
-                "https://assets.maccarianagency.com/screenshots/dashboard.png"
-              }
-              alt="..."
-              boxShadow={3}
-              borderRadius={2}
-              maxWidth={600}
-              sx={{
-                filter:
-                  theme.palette.mode === "dark" ? "brightness(0.7)" : "none",
-              }}
-            />
+           <div className="h-full w-full bg-gray-500"></div>
           </Grid>
         </Grid>
       </div>
