@@ -28,7 +28,13 @@ const HeroReversed = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <div className="h-[750px] w-full bg-gray-500"></div>
+            <div className="h-[750px] w-full bg-gray-500">
+              <img
+                src="https://assets.maccarianagency.com/backgrounds/img19.jpg"
+                className="h-full w-full object-cover"
+                alt="hero"
+              />
+            </div>
           </Grid>
           <Grid item container xs={12} md={6} alignItems={"center"}>
             <Box data-aos={isMd ? "fade-right" : "fade-up"}>
