@@ -26,7 +26,7 @@ const Header = () => {
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
                   <span>Overview</span>
-                  <HiOutlineChevronDown />
+                  <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
               <li>
@@ -35,7 +35,7 @@ const Header = () => {
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
                   <span>Branches</span>
-                  <HiOutlineChevronDown />
+                  <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
               <li>
@@ -44,7 +44,7 @@ const Header = () => {
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
                   <span>Functions</span>
-                  <HiOutlineChevronDown />
+                  <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Header = () => {
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
                   <span>Pricing</span>
-                  <HiOutlineChevronDown />
+                  <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ const Header = () => {
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
                   <span>Chatbot</span>
-                  <HiOutlineChevronDown />
+                  <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
             </ul>
