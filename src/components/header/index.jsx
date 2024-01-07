@@ -40,7 +40,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/functions"
                   className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
                 >
                   <span>Functions</span>
