@@ -50,7 +50,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  <CiUser className="text-2xl" />
+                  <CiCircleQuestion className="text-2xl" />
                 </Link>
               </li>
               <li>
@@ -60,7 +60,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/" className="text-gray-800 hover:text-gray-600">
-                  <CiCircleQuestion className="text-2xl" />
+                  <CiUser className="text-2xl" />
                 </Link>
               </li>
             </ul>
