@@ -309,31 +309,25 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bottom-footerr mt-10 border-t pt-10">
-          <div className="">
-            <div className="flex justify-between items-center">
-              <Link to="/" className="text-2xl font-bold text-gray-800">
-                <img src={logo} className="w-[120px]" alt="" />
-              </Link>
-              <div className="flex justify-end items-center gap-5">
-                <p className="text-gray-800 text-sm text-decoration-none">
-                  Home
-                </p>
-                <p className="text-gray-800 tetx-sm">
-                  Documentation
-                </p>
-              </div>
-            </div>
 
-            <div className="mt-5">
-              <div className="text-center">
-                <p className="text-gray-800 mb-2 text-decoration-none">
-                  © 2021 Company, Inc. All rights reserved.
-                </p>
-                <p className="text-gray-600 text-sm">
-                  When you visit or interact with our sites, services or tools,we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.
-                </p>
-              </div>
+      </div>
+      <div className="bottom-footerr mt-10 border-t border-blue-500 pt-10">
+        <div className="container">
+          <div className="flex justify-between items-center">
+            <Link to="/" className="text-2xl font-bold text-gray-800">
+              <img src={logo} className="w-[120px]" alt="" />
+            </Link>
+
+          </div>
+
+          <div className="mt-5">
+            <div className="text-center">
+              <p className="text-gray-800 mb-2 text-decoration-none">
+                © 2021 Company, Inc. All rights reserved.
+              </p>
+              <p className="text-gray-600 text-sm">
+                When you visit or interact with our sites, services or tools,we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.
+              </p>
             </div>
           </div>
         </div>
