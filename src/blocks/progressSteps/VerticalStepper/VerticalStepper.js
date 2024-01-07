@@ -83,7 +83,7 @@ const VerticalStepper = () => {
   return (
     <div className="py-10">
       <div className="container">
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-[32px]">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-[100px]">
           <div className="w-full h-full bg-gray-600"></div>
           <div className="col-span-2">
             <Box>

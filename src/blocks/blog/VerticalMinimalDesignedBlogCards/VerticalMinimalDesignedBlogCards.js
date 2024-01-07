@@ -326,34 +326,35 @@ const VerticalMinimalDesignedBlogCards = () => {
     }
   };
   return (
-    <div className="container">
-      <div className="grid grid-cols-5 gap-[16px]">
-        {mock.slice(0, length).map((item, i) => (
-          <Grid item xs={12} md={4} key={i}>
-            <Box
-              component={"a"}
-              href={""}
-              display={"block"}
-              width={1}
-              height={1}
-              sx={{
-                textDecoration: "none",
-                transition: "all .2s ease-in-out",
-                "&:hover": {
-                  transform: `translateY(-${theme.spacing(1 / 2)})`,
-                },
-              }}
-            >
+    <div className="py-10">
+      <div className="container">
+        <div className="grid grid-cols-5 gap-[16px]">
+          {mock.slice(0, length).map((item, i) => (
+            <Grid item xs={12} md={4} key={i}>
               <Box
-                component={Card}
+                component={"a"}
+                href={""}
+                display={"block"}
                 width={1}
                 height={1}
-                boxShadow={4}
-                display={"flex"}
-                flexDirection={"column"}
-                sx={{ backgroundImage: "none" }}
+                sx={{
+                  textDecoration: "none",
+                  transition: "all .2s ease-in-out",
+                  "&:hover": {
+                    transform: `translateY(-${theme.spacing(1 / 2)})`,
+                  },
+                }}
               >
-                {/* <CardMedia
+                <Box
+                  component={Card}
+                  width={1}
+                  height={1}
+                  boxShadow={4}
+                  display={"flex"}
+                  flexDirection={"column"}
+                  sx={{ backgroundImage: "none" }}
+                >
+                  {/* <CardMedia
                   image={item.image}
                   title={item.title}
                   sx={{
@@ -361,50 +362,51 @@ const VerticalMinimalDesignedBlogCards = () => {
                     position: "relative",
                   }}
                 /> */}
-                <div className="w-full h-[150px] bg-gray-600"></div>
-                <Box component={CardContent} position={"relative"}>
-                  <h3 className="font-bold">{item.title}</h3>
-                  <p className="text-sm text-gray-400 mt-2">
-                    {item.description}
-                  </p>
-                </Box>
-                <Box flexGrow={1} />
-                <Box padding={2} display={"flex"} flexDirection={"column"}>
-                  <Box marginBottom={2}>
-                    <Divider />
+                  <div className="w-full h-[150px] bg-gray-600"></div>
+                  <Box component={CardContent} position={"relative"}>
+                    <h3 className="font-bold">{item.title}</h3>
+                    <p className="text-sm text-gray-400 mt-2">
+                      {item.description}
+                    </p>
                   </Box>
-                  <Box
-                    display={"flex"}
-                    justifyContent={"space-between"}
-                    alignItems={"center"}
-                  >
-                    <Box display={"flex"} alignItems={"center"}>
-                      <Avatar
-                        className="w-8 h-8 bg-gray-600"
-                        // src={item.author.avatar}
-                        sx={{ marginRight: 1 }}
-                      />
-                      <p className="text-sm text-gray-500">
-                        {item.author.name}
-                      </p>
+                  <Box flexGrow={1} />
+                  <Box padding={2} display={"flex"} flexDirection={"column"}>
+                    <Box marginBottom={2}>
+                      <Divider />
                     </Box>
-                    {/* <Typography color={"text.secondary"}>
+                    <Box
+                      display={"flex"}
+                      justifyContent={"space-between"}
+                      alignItems={"center"}
+                    >
+                      <Box display={"flex"} alignItems={"center"}>
+                        <Avatar
+                          className="w-8 h-8 bg-gray-600"
+                          // src={item.author.avatar}
+                          sx={{ marginRight: 1 }}
+                        />
+                        <p className="text-sm text-gray-500">
+                          {item.author.name}
+                        </p>
+                      </Box>
+                      {/* <Typography color={"text.secondary"}>
                       {item.date}
                     </Typography> */}
+                    </Box>
                   </Box>
                 </Box>
               </Box>
-            </Box>
-          </Grid>
-        ))}
-      </div>
-      <div className="text-center mt-10">
-        <button
-          onClick={loadMoreHandler}
-          className="bg-white hover:bg-[#1976D2] text-[#1976D2] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1976D2] px-10 py-2 rounded-[5px]"
-        >
-          Load More
-        </button>
+            </Grid>
+          ))}
+        </div>
+        <div className="text-center mt-10">
+          <button
+            onClick={loadMoreHandler}
+            className="bg-white hover:bg-[#1976D2] text-[#1976D2] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1976D2] px-10 py-2 rounded-[5px]"
+          >
+            Load More
+          </button>
+        </div>
       </div>
     </div>
   );
