@@ -65,6 +65,15 @@ const Header = () => {
                   <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/"
+                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                >
+                  <span>Shop</span>
+                  <HiOutlineChevronDown className="text-blue-500" />
+                </Link>
+              </li>
             </ul>
           </div>
 
