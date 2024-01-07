@@ -316,12 +316,12 @@ const mock = [
   },
 ];
 
-const VerticalMinimalDesignedBlogCards = () => {
+const VerticalMinimalDesignedBlogCards = ({ items }) => {
   const theme = useTheme();
   const [length, setLength] = React.useState(5);
 
   const loadMoreHandler = () => {
-    if (length <= 30) {
+    if (length < items) {
       setLength(length + 5);
     }
   };
@@ -399,14 +399,16 @@ const VerticalMinimalDesignedBlogCards = () => {
             </Grid>
           ))}
         </div>
-        <div className="text-center mt-10">
-          <button
-            onClick={loadMoreHandler}
-            className="bg-white hover:bg-[#1976D2] text-[#1976D2] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1976D2] px-10 py-2 rounded-[5px]"
-          >
-            Load More
-          </button>
-        </div>
+        {length < items && (
+          <div className="text-center mt-10">
+            <button
+              onClick={loadMoreHandler}
+              className="bg-white hover:bg-[#1976D2] text-[#1976D2] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1976D2] px-10 py-2 rounded-[5px]"
+            >
+              Load More
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

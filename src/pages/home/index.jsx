@@ -13,7 +13,7 @@ const Homepage = () => {
       <Header />
       <Hero />
       <VerticalStepper />
-      <VerticalMinimalDesignedBlogCards />
+      <VerticalMinimalDesignedBlogCards items={30} />
       <WithBorderedCardsAndBrandColor />
       <CtaWithInputField />
       <Footer />
