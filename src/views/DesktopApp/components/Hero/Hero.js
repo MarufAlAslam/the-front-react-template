@@ -87,7 +87,7 @@ const Hero = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-           <div className="h-full w-full bg-gray-500"></div>
+           <div className="h-[500px] w-full bg-gray-500"></div>
           </Grid>
         </Grid>
       </div>
