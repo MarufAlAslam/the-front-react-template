@@ -6,6 +6,7 @@ import Functions from "../pages/functions";
 // import EmptyCart from "../demos/ecommerce/views/EmptyCart/EmptyCart";
 import EmptyCartPage from "../pages/empty-cart";
 import CartPage from "../pages/cart";
+import CheckoutPage from "../pages/checkout";
 
 export const router = createBrowserRouter([
   {
@@ -31,5 +32,9 @@ export const router = createBrowserRouter([
   {
     path: "/cart",
     element: <CartPage />,
+  },
+  {
+    path: "/checkout",
+    element: <CheckoutPage />,
   },
 ]);
