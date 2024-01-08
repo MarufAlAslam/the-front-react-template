@@ -2,7 +2,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import Avatar from "@mui/material/Avatar";
@@ -115,7 +115,7 @@ const WithBorderedCardsAndBrandColor = () => {
     <div className="py-10">
       <div className="container">
         <Box>
-          <Box marginBottom={4}>
+          {/* <Box marginBottom={4}>
             <Typography
               sx={{
                 textTransform: "uppercase",
@@ -170,7 +170,7 @@ const WithBorderedCardsAndBrandColor = () => {
                 Explore more
               </Box>
             </Box>
-          </Box>
+          </Box> */}
           <Box>
             <Grid container spacing={4}>
               {mock.map((item, i) => (
