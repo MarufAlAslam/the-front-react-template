@@ -19,11 +19,11 @@ const Header = () => {
           </div>
 
           <div className="w-8/12">
-            <ul className="flex justify-center items-center gap-7">
+            <ul className="flex justify-center items-center gap-4">
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                  className="text-gray-800 text-sm hover:text-blue-500 flex items-center gap-1"
                 >
                   <span>Company</span>
                   <HiOutlineChevronDown className="text-blue-500" />
@@ -32,7 +32,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/branches"
-                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                  className="text-gray-800 text-sm flex items-center gap-1 hover:text-blue-500"
                 >
                   <span>Branches</span>
                   <HiOutlineChevronDown className="text-blue-500" />
@@ -41,7 +41,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/functions"
-                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                  className="text-gray-800 text-sm flex items-center gap-1 hover:text-blue-500"
                 >
                   <span>Functions</span>
                   <HiOutlineChevronDown className="text-blue-500" />
@@ -50,7 +50,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                  className="text-gray-800 text-sm flex items-center gap-1 hover:text-blue-500"
                 >
                   <span>Pricing</span>
                   <HiOutlineChevronDown className="text-blue-500" />
@@ -59,7 +59,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                  className="text-gray-800 text-sm flex items-center gap-1 hover:text-blue-500"
                 >
                   <span>Chatbot</span>
                   <HiOutlineChevronDown className="text-blue-500" />
@@ -68,9 +68,18 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 flex items-center gap-1 hover:text-gray-600"
+                  className="text-gray-800 text-sm flex items-center gap-1 hover:text-blue-500"
                 >
                   <span>Shop</span>
+                  <HiOutlineChevronDown className="text-blue-500" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/"
+                  className="text-gray-800 text-sm flex items-center gap-1 hover:text-blue-500"
+                >
+                  <span>News</span>
                   <HiOutlineChevronDown className="text-blue-500" />
                 </Link>
               </li>
@@ -78,7 +87,7 @@ const Header = () => {
           </div>
 
           <div className="w-2/12">
-            <ul className="flex justify-end items-center gap-7">
+            <ul className="flex justify-end items-center gap-4">
               <li>
                 <Link to="/" className="text-gray-800 hover:text-gray-600">
                   <CiSearch className="text-2xl" />
