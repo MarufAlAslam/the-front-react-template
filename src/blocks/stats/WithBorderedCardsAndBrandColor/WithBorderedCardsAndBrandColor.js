@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import Avatar from "@mui/material/Avatar";
-import useMediaQuery from "@mui/material/useMediaQuery";
+// import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 // import Container from "../../../components/Container";
 
@@ -107,9 +107,9 @@ const mock = [
 
 const WithBorderedCardsAndBrandColor = () => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up("md"), {
-    defaultMatches: true,
-  });
+  // const isMd = useMediaQuery(theme.breakpoints.up("md"), {
+  //   defaultMatches: true,
+  // });
 
   return (
     <div className="py-10">
