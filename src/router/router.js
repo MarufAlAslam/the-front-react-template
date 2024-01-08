@@ -5,6 +5,7 @@ import Branches from "../pages/branches";
 import Functions from "../pages/functions";
 // import EmptyCart from "../demos/ecommerce/views/EmptyCart/EmptyCart";
 import EmptyCartPage from "../pages/empty-cart";
+import CartPage from "../pages/cart";
 
 export const router = createBrowserRouter([
   {
@@ -26,5 +27,9 @@ export const router = createBrowserRouter([
   {
     path: "/empty-cart",
     element: <EmptyCartPage />,
+  },
+  {
+    path: "/cart",
+    element: <CartPage />,
   },
 ]);
