@@ -7,6 +7,7 @@ import Functions from "../pages/functions";
 import EmptyCartPage from "../pages/empty-cart";
 import CartPage from "../pages/cart";
 import CheckoutPage from "../pages/checkout";
+import OrderCompletePage from "../pages/order-completed";
 
 export const router = createBrowserRouter([
   {
@@ -36,5 +37,9 @@ export const router = createBrowserRouter([
   {
     path: "/checkout",
     element: <CheckoutPage />,
+  },
+  {
+    path: "/order-completed",
+    element: <OrderCompletePage />,
   },
 ]);
