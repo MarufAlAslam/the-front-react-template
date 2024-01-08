@@ -1,23 +1,24 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import { useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import Box from '@mui/material/Box';
-import Collapse from '@mui/material/Collapse';
-import Link from '@mui/material/Link';
-import Divider from '@mui/material/Divider';
-import AppBar from '@mui/material/AppBar';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Box from "@mui/material/Box";
+import Collapse from "@mui/material/Collapse";
+import Link from "@mui/material/Link";
+import Divider from "@mui/material/Divider";
+import AppBar from "@mui/material/AppBar";
 
-import Container from 'components/Container';
-import TopNav from 'components/TopNav';
+// import Container from 'components/Container';
+// import TopNav from "../../views/";
 
-import { Topbar, MobileMenu, Footer } from './components';
 
-import pages from '../navigation';
+import { Topbar, Footer } from "./components";
+
+import pages from "../navigation";
 
 const Main = ({ children }) => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+  const isMd = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true,
   });
 
@@ -31,26 +32,26 @@ const Main = ({ children }) => {
 
   return (
     <Box>
-      <Box position={'relative'} zIndex={theme.zIndex.appBar}>
-        <Container paddingTop={'8px !important'} paddingBottom={'0 !important'}>
+      <Box position={"relative"} zIndex={theme.zIndex.appBar}>
+        <div className="container">
           <Box
             sx={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
             }}
           >
             <Link
-              href={'/'}
-              color={'text.primary'}
-              underline={'none'}
+              href={"/"}
+              color={"text.primary"}
+              underline={"none"}
               sx={{
-                display: { xs: 'none', sm: 'inline-flex' },
-                alignItems: 'center',
+                display: { xs: "none", sm: "inline-flex" },
+                alignItems: "center",
               }}
             >
               <Box
-                component={'svg'}
+                component={"svg"}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -66,34 +67,34 @@ const Main = ({ children }) => {
               Main Demo
             </Link>
             <Box flexGrow={1} />
-            <TopNav />
+            {/* <TopNav /> */}
           </Box>
-        </Container>
+        </div>
       </Box>
       <AppBar
-        position={'static'}
+        position={"static"}
         sx={{
           top: 0,
           backgroundColor: theme.palette.background.paper,
         }}
         elevation={0}
       >
-        <Container paddingY={1}>
+        <div className="container">
           <Topbar handleMobileMenuClick={handleMobileMenuClick} pages={pages} />
-        </Container>
+        </div>
       </AppBar>
       <Collapse in={open} timeout="auto" unmountOnExit>
-        <Container paddingY={0}>
-          <MobileMenu pages={pages} />
-        </Container>
+        <div className="container">
+          {/* <MobileMenu pages={pages} /> */}
+        </div>
       </Collapse>
       <main>
         {children}
         <Divider />
       </main>
-      <Container paddingY={4}>
+      <div className="container">
         <Footer />
-      </Container>
+      </div>
     </Box>
   );
 };

@@ -3,22 +3,28 @@ import Homepage from "../pages/home";
 import NotFound from "../pages/not-found";
 import Branches from "../pages/branches";
 import Functions from "../pages/functions";
+// import EmptyCart from "../demos/ecommerce/views/EmptyCart/EmptyCart";
+import EmptyCartPage from "../pages/empty-cart";
 
 export const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Homepage />
-    },
-    {
-        path: "/branches",
-        element: <Branches />
-    },
-    {
-        path: "/functions",
-        element: <Functions />
-    },
-    {
-        path: "*",
-        element: <NotFound />
-    }
-])
+  {
+    path: "/",
+    element: <Homepage />,
+  },
+  {
+    path: "/branches",
+    element: <Branches />,
+  },
+  {
+    path: "/functions",
+    element: <Functions />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
+  },
+  {
+    path: "/empty-cart",
+    element: <EmptyCartPage />,
+  },
+]);

@@ -1,39 +1,40 @@
-import React from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+import React from "react";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
 
-import Main from '../../layouts/Main';
-import Container from 'components/Container';
+// import Main from "../../layouts/Main";
+// import Container from "components/Container";
 
-import { Newsletter, Partners } from './components';
+// import { Newsletter, Partners } from "./components";
 
 const EmptyCart = () => {
   return (
-    <Main>
-      <Container maxWidth={600}>
+    <>
+      <div className="container">
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
           }}
         >
           <Box
             sx={{
-              position: 'relative',
+              position: "relative",
             }}
           >
             <Box
-              component={'svg'}
+              component={"svg"}
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               width={150}
               height={150}
-              color={'alternate.dark'}
+              color={"alternate.dark"}
+              className="text-gray-300"
             >
               <path
                 strokeLinecap="round"
@@ -43,38 +44,39 @@ const EmptyCart = () => {
               />
             </Box>
           </Box>
-          <Typography variant={'h6'} fontWeight={700} align={'center'}>
+          <Typography variant={"h6"} fontWeight={700} align={"center"}>
             Your cart is currently empty
           </Typography>
           <Typography
             fontWeight={400}
-            color={'text.secondary'}
-            align={'center'}
+            color={"text.secondary"}
+            align={"center"}
+            className="mt-3"
           >
             Before proceed to checkout you must add some products to your
-            shopping cart. You will find a lot of interesting products on our
-            page.
+            shopping <br /> cart. You will find a lot of interesting products on
+            our page.
           </Typography>
           <Button
             component={Link}
-            href={'/demos/ecommerce/listing'}
-            variant={'contained'}
-            size={'large'}
+            href={"/demos/ecommerce/listing"}
+            variant={"contained"}
+            size={"large"}
             sx={{ marginTop: 4 }}
           >
             Start shopping
           </Button>
         </Box>
-      </Container>
-      <Box bgcolor={'alternate.main'}>
+      </div>
+      {/* <Box bgcolor={"alternate.main"}>
         <Container>
           <Newsletter />
         </Container>
-      </Box>
-      <Container>
+      </Box> */}
+      {/* <Container>
         <Partners />
-      </Container>
-    </Main>
+      </Container> */}
+    </>
   );
 };
 
