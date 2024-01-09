@@ -8,12 +8,12 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const SimpleSignInForm = () => {
   return (
     <Box bgcolor={'alternate.main'}>
-      <Container maxWidth={800}>
+      <div className='container'>
         <Box marginBottom={4}>
           <Typography
             sx={{
@@ -91,11 +91,11 @@ const SimpleSignInForm = () => {
                   alignItems={{ xs: 'stretched', sm: 'center' }}
                   justifyContent={'space-between'}
                   width={1}
-                  maxWidth={600}
+                  // maxWidth={600}
                   margin={'0 auto'}
                 >
                   <Box marginBottom={{ xs: 1, sm: 0 }}>
-                    <Typography variant={'subtitle2'}>
+                    {/* <Typography variant={'subtitle2'}>
                       Don't have an account yet?{' '}
                       <Link
                         component={'a'}
@@ -105,7 +105,7 @@ const SimpleSignInForm = () => {
                       >
                         Sign up here.
                       </Link>
-                    </Typography>
+                    </Typography> */}
                   </Box>
                   <Button size={'large'} variant={'contained'} type={'submit'}>
                     Login
@@ -115,7 +115,7 @@ const SimpleSignInForm = () => {
             </Grid>
           </form>
         </Card>
-      </Container>
+      </div>
     </Box>
   );
 };

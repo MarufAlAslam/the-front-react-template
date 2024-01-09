@@ -10,6 +10,7 @@ import CheckoutPage from "../pages/checkout";
 import OrderCompletePage from "../pages/order-completed";
 import ShoppingListing from "../pages/shopping-listing";
 import Pricing from "../pages/pricing";
+import Account from "../pages/account";
 
 export const router = createBrowserRouter([
   {
@@ -51,5 +52,9 @@ export const router = createBrowserRouter([
   {
     path: "/pricing",
     element: <Pricing />,
+  },
+  {
+    path: "/account",
+    element: <Account />,
   },
 ]);

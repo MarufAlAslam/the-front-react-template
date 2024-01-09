@@ -8,12 +8,12 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const ResetPasswordSimpleForm = () => {
   return (
     <Box bgcolor={'alternate.main'}>
-      <Container maxWidth={600}>
+      <div className='container'>
         <Box marginBottom={4}>
           <Typography
             sx={{
@@ -80,7 +80,7 @@ const ResetPasswordSimpleForm = () => {
             </Grid>
           </form>
         </Card>
-      </Container>
+      </div>
     </Box>
   );
 };
