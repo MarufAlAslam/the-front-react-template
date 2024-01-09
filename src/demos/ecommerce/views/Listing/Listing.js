@@ -7,7 +7,7 @@ import Main from "../../layouts/Main";
 import {
   Banner,
   Headline,
-  Newsletter,
+  // Newsletter,
   // Headline,
   // Banner,
   Products,
@@ -35,11 +35,11 @@ const Listing = () => {
           <Products />
         </SidebarFilters>
       </div>
-      <Box paddingY={10} bgcolor={"alternate.main"}>
+      {/* <Box paddingY={10} bgcolor={"alternate.main"}>
         <Container>
           <Newsletter />
         </Container>
-      </Box>
+      </Box> */}
       {/* <Container>
         <Partners />
       </Container> */}

@@ -26,13 +26,13 @@ const Newsletter = () => {
           variant="caption"
           component={'p'}
           align={'center'}
-          color={'text.secondary'}
+          color={'white'}
           gutterBottom
           sx={{ fontWeight: 700, textTransform: 'uppercase' }}
         >
           Subscribe
         </Typography>
-        <Typography variant="h4" align={'center'} sx={{ fontWeight: 700 }}>
+        <Typography variant="h4" align={'center'} color={'white'} sx={{ fontWeight: 700 }}>
           Get the latest from our store
         </Typography>
       </Box>
@@ -61,7 +61,7 @@ const Newsletter = () => {
         <Box
           component={Button}
           variant="contained"
-          color="primary"
+          color="white"
           size="large"
           fullWidth={isSm ? false : true}
           marginTop={{ xs: 2, sm: 0 }}

@@ -11,7 +11,7 @@ const CheckoutPage = () => {
       <div className="py-14">
         <Checkout />
       </div>
-      <div className="bg-blue-100 py-10">
+      <div className="bg-[#1976d2] py-10">
         <Newsletter />
       </div>
       <Footer />

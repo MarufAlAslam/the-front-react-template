@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+// import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import OrderComplete from "../../demos/ecommerce/views/OrderComplete/OrderComplete";
+import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
 const OrderCompletePage = () => {
   return (
@@ -11,8 +12,8 @@ const OrderCompletePage = () => {
       <div className="py-32">
         <OrderComplete />
       </div>
-      <div className="bg-blue-100">
-        <CtaWithInputField />
+      <div className="bg-[#1976d2] py-10">
+        <Newsletter />
       </div>
       <Footer />
     </>

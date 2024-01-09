@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import EmptyCart from "../../demos/ecommerce/views/EmptyCart/EmptyCart";
-import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+// import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
 const EmptyCartPage = () => {
   return (
@@ -11,8 +12,8 @@ const EmptyCartPage = () => {
       <div className="py-32">
         <EmptyCart />
       </div>
-      <div className="bg-blue-100">
-        <CtaWithInputField />
+      <div className="bg-[#1976d2] py-10">
+        <Newsletter />
       </div>
       <Footer />
     </>

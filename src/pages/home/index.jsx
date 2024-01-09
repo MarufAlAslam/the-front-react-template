@@ -17,7 +17,7 @@ const Homepage = () => {
       {/* <VerticalMinimalDesignedBlogCards items={30} /> */}
       <WithBorderedCardsAndBrandColor />
       {/* <CtaWithInputField /> */}
-      <div className="bg-blue-100 py-10">
+      <div className="bg-[#1976d2] py-10">
         <Newsletter />
       </div>
       <Footer />
