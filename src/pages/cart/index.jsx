@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+// import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import Cart from "../../demos/ecommerce/views/Cart/Cart";
 import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
