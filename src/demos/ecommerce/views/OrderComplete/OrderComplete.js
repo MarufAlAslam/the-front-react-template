@@ -48,7 +48,7 @@ const OrderComplete = () => {
         </Typography>
         <Button
           component={Link}
-          href={"/demos/ecommerce/listing"}
+          href={"/empty-cart"}
           variant={"contained"}
           size={"large"}
           sx={{ marginTop: 4 }}

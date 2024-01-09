@@ -1,8 +1,8 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
+// import Stack from "@mui/material/Stack";
+// import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import Typography from "@mui/material/Typography";
 
@@ -28,6 +28,7 @@ const Cart = () => {
               sx={{
                 bgcolor: "alternate.main",
                 padding: { xs: 2, sm: 4 },
+                paddingRight: { xs: 0, sm: 0 },
               }}
             >
               <Typography variant="h6" fontWeight={700} marginBottom={4}>
@@ -35,7 +36,7 @@ const Cart = () => {
               </Typography>
               <SummeryBox />
             </Card>
-            <Box marginTop={4}>
+            {/* <Box marginTop={4}>
               <Typography gutterBottom>Need help?</Typography>
               <Stack direction={"row"} spacing={2}>
                 <Button
@@ -76,7 +77,7 @@ const Cart = () => {
                   Email us
                 </Button>
               </Stack>
-            </Box>
+            </Box> */}
           </Grid>
         </Grid>
       </Box>

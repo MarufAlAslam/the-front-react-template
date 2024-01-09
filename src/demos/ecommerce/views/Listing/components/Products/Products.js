@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import { alpha, useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Stack from "@mui/material/Stack";
+// import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 // import CardMedia from "@mui/material/CardMedia";
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 
 import { ProductQuickViewDialog } from "./components";
+import { Link } from "react-router-dom";
 
 const mock = [
   {
@@ -250,23 +251,25 @@ const Products = () => {
                   {item.reviewCount} reviews
                 </Typography>
               </Box>
-              <Stack marginTop={2} spacing={1} direction={"row"}>
-                <Button
-                  variant={"contained"}
-                  color={"primary"}
-                  size={"large"}
-                  fullWidth
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    width={20}
-                    height={20}
+              <div className="flex py-3 justify-between items-center gap-5">
+                <Link className="w-full" to="/cart">
+                  <Button
+                    variant={"contained"}
+                    color={"primary"}
+                    size={"large"}
+                    fullWidth
                   >
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                </Button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      width={20}
+                      height={20}
+                    >
+                      <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    </svg>
+                  </Button>
+                </Link>
                 <Button
                   color={"primary"}
                   size={"large"}
@@ -289,7 +292,7 @@ const Products = () => {
                     />
                   </svg>
                 </Button>
-              </Stack>
+              </div>
               <Button
                 component={Link}
                 href={item.href}
