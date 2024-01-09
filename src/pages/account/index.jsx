@@ -3,6 +3,8 @@ import Header from '../../components/header'
 import SimpleSignInForm from '../../blocks/authentication/SimpleSignInForm/SimpleSignInForm'
 import SimpleSignUpForm from '../../blocks/authentication/SimpleSignUpForm/SimpleSignUpForm'
 import ResetPasswordSimpleForm from '../../blocks/authentication/ResetPasswordSimpleForm/ResetPasswordSimpleForm'
+import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
+import Footer from '../../components/footer'
 
 const Account = () => {
     return (
@@ -23,6 +25,10 @@ const Account = () => {
                     </div>
                 </div>
             </div>
+            <div className="bg-[#1876D1] py-10">
+                <Newsletter />
+            </div>
+            <Footer />
         </>
     )
 }
