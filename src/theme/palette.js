@@ -42,7 +42,7 @@ export const dark = {
   },
   mode: 'dark',
   primary: {
-    main: '#1976d2',
+    main: '#1876D1',
     light: '#2196f3',
     dark: '#0d47a1',
     contrastText: '#fff',

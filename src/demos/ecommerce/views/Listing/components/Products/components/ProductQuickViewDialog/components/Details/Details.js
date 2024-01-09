@@ -38,7 +38,7 @@ const Details = ({
         <Typography variant={'h6'} fontWeight={700}>
           {price}
         </Typography>
-        <Box display={'flex'} alignItems={'center'}>
+        {/* <Box display={'flex'} alignItems={'center'}>
           <Box display={'flex'} alignItems={'center'}>
             {[1, 2, 3, 4, 5].map((r) => (
               <Box
@@ -66,7 +66,7 @@ const Details = ({
           >
             {reviewCount} reviews
           </Typography>
-        </Box>
+        </Box> */}
       </Box>
       <Box marginTop={2}>
         <Typography>
@@ -218,7 +218,7 @@ const Details = ({
             />
           </svg>
         </Button>
-        <Button
+        {/* <Button
           color={'primary'}
           size={'large'}
           fullWidth
@@ -237,7 +237,7 @@ const Details = ({
               clipRule="evenodd"
             />
           </svg>
-        </Button>
+        </Button> */}
       </Stack>
     </Box>
   );

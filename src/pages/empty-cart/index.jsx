@@ -12,7 +12,7 @@ const EmptyCartPage = () => {
       <div className="py-32">
         <EmptyCart />
       </div>
-      <div className="bg-[#1976d2] py-10">
+      <div className="bg-[#1876D1] py-10">
         <Newsletter />
       </div>
       <Footer />

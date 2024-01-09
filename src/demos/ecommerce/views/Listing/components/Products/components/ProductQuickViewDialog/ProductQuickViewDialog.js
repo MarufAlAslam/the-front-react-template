@@ -70,6 +70,28 @@ const ProductQuickViewDialog = ({ onClose, open, imageSrc, details }) => {
                 </Grid>
               </Grid>
             </Box>
+
+            <h3 className="text-xl font-bold mb-1 mt-3">Product Details</h3>
+            <div className="grid grid-cols-2 gap-5">
+              <p>
+                {/* lorem 100 */}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptatibus, doloremque, voluptatum, quas quos voluptate
+                accusantium quia repellendus voluptas fugiat quibusdam
+                reprehenderit? Quisquam, voluptatem. Quisquam voluptatibus,
+                doloremque, voluptatum, quas quos voluptate accusantium quia
+                repellendus voluptas fugiat quibusdam reprehenderit? Quisquam,
+              </p>
+              <p>
+                {/* lorem 100 */}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptatibus, doloremque, voluptatum, quas quos voluptate
+                accusantium quia repellendus voluptas fugiat quibusdam
+                reprehenderit? Quisquam, voluptatem. Quisquam voluptatibus,
+                doloremque, voluptatum, quas quos voluptate accusantium quia
+                repellendus voluptas fugiat quibusdam reprehenderit? Quisquam,
+              </p>
+            </div>
           </div>
         </Box>
       </Dialog>

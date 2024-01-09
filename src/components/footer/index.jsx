@@ -10,19 +10,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Company</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 About Us
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 History
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Purpose, Mission, and Values
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Partners
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Corporate Social Responsibility
               </li>
             </ul>
@@ -30,19 +30,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Careers</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Explore
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Jobs
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Interviews
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Teams
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Employee Benefits
               </li>
             </ul>
@@ -50,19 +50,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Press</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Media Coverage
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Press Releases
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 In the News
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Company Announcements
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Press Kit
               </li>
             </ul>
@@ -70,19 +70,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="s text-black font-bold">FAQ</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 General Questions
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Account Information
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Product Inquiries
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Technical Support
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Troubleshooting
               </li>
             </ul>
@@ -90,19 +90,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Terms and Conditions</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 General Terms
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Service Terms
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Sales Terms
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Returns and Exchanges
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Warranty Information
               </li>
             </ul>
@@ -110,19 +110,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Privacy</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Data Protection
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Privacy Policy
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Confidentiality
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Information Security
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 User Consent
               </li>
             </ul>
@@ -130,19 +130,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Cookies</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Cookie Policy
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Preferences
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Opt-out Options
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Third-Party Cookies
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Cookie Settings
               </li>
             </ul>
@@ -150,19 +150,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Terms of Use</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 User Agreemen
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Acceptable Use
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Site Policies
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Content Guidelines
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Intellectual Property Rights
               </li>
             </ul>
@@ -170,19 +170,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Contact</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Customer Support
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Feedback
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Reach Us
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Sales Inquiries
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Business Partnerships
               </li>
             </ul>
@@ -190,19 +190,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Payments</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Payment Methods
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Billing Information
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Refunds
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Payment Security
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Subscription Payments
               </li>
             </ul>
@@ -210,19 +210,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">User Rights</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 User Entitlements
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Content Usage
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Licensing
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Permissions
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Fair Use Policy
               </li>
             </ul>
@@ -230,19 +230,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Copyright</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Intellectual Property
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Copyright Notice
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Permissions
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 DMCA Information
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Copyright Complaints
               </li>
             </ul>
@@ -250,19 +250,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Imprint</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Legal Information
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Regulatory Compliance
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Registered Address
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Company Registration
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Executive Team
               </li>
             </ul>
@@ -270,19 +270,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Social Media</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Connect with Us
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Follow Us
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Share Your Thoughts
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Social Media Policy
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Community Guidelines
               </li>
             </ul>
@@ -290,19 +290,19 @@ const Footer = () => {
           <div className="item">
             <h3 className="text-black font-bold">Products</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Branches
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Functions
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Chatbot
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Dashboard
               </li>
-              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-blue-500 cursor-pointer">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Consulting
               </li>
             </ul>

@@ -403,7 +403,7 @@ const VerticalMinimalDesignedBlogCards = ({ items }) => {
           <div className="text-center mt-10">
             <button
               onClick={loadMoreHandler}
-              className="bg-white hover:bg-[#1976D2] text-[#1976D2] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1976D2] px-10 py-2 rounded-[5px]"
+              className="bg-white hover:bg-[#1876D1] text-[#1876D1] hover:text-white flex mx-auto justify-center items-center border-2 border-[#1876D1] px-10 py-2 rounded-[5px]"
             >
               Load More
             </button>

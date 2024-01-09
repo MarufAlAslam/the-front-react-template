@@ -23,64 +23,64 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 text-[15px] hover:text-blue-500 flex items-center gap-1"
+                  className="text-gray-800 text-[15px] hover:text-[#1876D1] flex items-center gap-1"
                 >
                   <span>Company</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/branches"
-                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
+                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Branches</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/functions"
-                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
+                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Functions</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
+                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Pricing</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
+                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Chatbot</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/empty-cart"
-                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
+                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Shop</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
               <li>
                 <Link
                   to="/"
-                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
+                  className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>News</span>
-                  <HiOutlineChevronDown className="text-blue-500" />
+                  <HiOutlineChevronDown className="text-[#1876D1]" />
                 </Link>
               </li>
             </ul>
@@ -113,7 +113,7 @@ const Header = () => {
                   to="/"
                   className="text-gray-800 hover:text-gray-600 border-2 border-gray-300 flex rounded-[4px] min-w-[45px] min-h-[45px] justify-center items-center"
                 >
-                  <FiMenu className="text-2xl text-blue-500" />
+                  <FiMenu className="text-2xl text-[#1876D1]" />
                 </Link>
               </li>
             </ul>
