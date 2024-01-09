@@ -3,6 +3,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import Cart from "../../demos/ecommerce/views/Cart/Cart";
+import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
 const CartPage = () => {
   return (
@@ -11,8 +12,8 @@ const CartPage = () => {
       <div className="py-14">
         <Cart />
       </div>
-      <div className="bg-blue-100">
-        <CtaWithInputField />
+      <div className="bg-blue-100 py-10">
+        <Newsletter />
       </div>
       <Footer />
     </>

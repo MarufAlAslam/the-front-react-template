@@ -10,6 +10,7 @@ import Typography from "@mui/material/Typography";
 // import Container from "components/Container";
 
 import { Orders, SummeryBox } from "./components";
+import { Button, Stack } from "@mui/material";
 
 const Cart = () => {
   return (
@@ -35,8 +36,7 @@ const Cart = () => {
                 Order summary
               </Typography>
               <SummeryBox />
-            </Card>
-            {/* <Box marginTop={4}>
+              <Box marginTop={4}>
               <Typography gutterBottom>Need help?</Typography>
               <Stack direction={"row"} spacing={2}>
                 <Button
@@ -77,7 +77,9 @@ const Cart = () => {
                   Email us
                 </Button>
               </Stack>
-            </Box> */}
+            </Box>
+            </Card>
+            
           </Grid>
         </Grid>
       </Box>
