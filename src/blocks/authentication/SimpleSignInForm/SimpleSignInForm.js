@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 
 // import Container from 'components/Container';
 
@@ -65,7 +65,7 @@ const SimpleSignInForm = () => {
                       Enter your password
                     </Typography>
                   </Box>
-                  <Typography variant={'subtitle2'}>
+                  {/* <Typography variant={'subtitle2'}>
                     <Link
                       component={'a'}
                       color={'primary'}
@@ -74,7 +74,7 @@ const SimpleSignInForm = () => {
                     >
                       Forgot your password?
                     </Link>
-                  </Typography>
+                  </Typography> */}
                 </Box>
                 <TextField
                   label="Password *"
