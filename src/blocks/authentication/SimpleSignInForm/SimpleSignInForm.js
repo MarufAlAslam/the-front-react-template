@@ -37,7 +37,7 @@ const SimpleSignInForm = () => {
             Login to manage your account.
           </Typography>
         </Box>
-        <Card sx={{ p: { xs: 4, md: 6 } }}>
+        <Card sx={{ boxShadow: "unset" }}>
           <form>
             <Grid container spacing={4}>
               <Grid item xs={12}>

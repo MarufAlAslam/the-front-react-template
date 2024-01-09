@@ -37,7 +37,7 @@ const ResetPasswordSimpleForm = () => {
             Enter your email address below and we'll get you back on track.
           </Typography>
         </Box>
-        <Card sx={{ p: { xs: 4, md: 6 } }}>
+        <Card sx={{ boxShadow: "unset" }}>
           <form>
             <Grid container spacing={4}>
               <Grid item xs={12}>
@@ -58,7 +58,7 @@ const ResetPasswordSimpleForm = () => {
                   alignItems={{ xs: 'stretched', sm: 'center' }}
                   justifyContent={'space-between'}
                   width={1}
-                  maxWidth={600}
+                  // maxWidth={600}
                   margin={'0 auto'}
                 >
                   <Box marginBottom={{ xs: 1, sm: 0 }}>

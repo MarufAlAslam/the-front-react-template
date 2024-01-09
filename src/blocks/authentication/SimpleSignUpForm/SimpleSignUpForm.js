@@ -37,7 +37,7 @@ const SimpleSignUpForm = () => {
             Fill out the form to get started.
           </Typography>
         </Box>
-        <Card sx={{ p: { xs: 4, md: 6 } }}>
+        <Card sx={{boxShadow: "unset" }}>
           <form>
             <Grid container spacing={4}>
               <Grid item xs={12} sm={6}>
