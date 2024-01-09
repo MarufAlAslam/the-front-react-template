@@ -4,8 +4,9 @@ import Hero from "../../views/DesktopApp/components/Hero/Hero";
 import VerticalStepper from "../../blocks/progressSteps/VerticalStepper/VerticalStepper";
 // import VerticalMinimalDesignedBlogCards from "../../blocks/blog/VerticalMinimalDesignedBlogCards/VerticalMinimalDesignedBlogCards";
 import WithBorderedCardsAndBrandColor from "../../blocks/stats/WithBorderedCardsAndBrandColor/WithBorderedCardsAndBrandColor";
-import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+// import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import Footer from "../../components/footer";
+import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
 const Homepage = () => {
   return (
@@ -15,7 +16,10 @@ const Homepage = () => {
       <VerticalStepper />
       {/* <VerticalMinimalDesignedBlogCards items={30} /> */}
       <WithBorderedCardsAndBrandColor />
-      <CtaWithInputField />
+      {/* <CtaWithInputField /> */}
+      <div className="bg-blue-100 py-10">
+        <Newsletter />
+      </div>
       <Footer />
     </>
   );
