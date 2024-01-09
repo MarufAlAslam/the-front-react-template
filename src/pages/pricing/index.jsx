@@ -12,7 +12,9 @@ const Pricing = () => {
             <div className='py-10'>
                 <WithOptionTogglerButton />
             </div>
-            <CompareTable />
+            <div className='py-10'>
+                <CompareTable />
+            </div>
             <div className="bg-[#1876D1] py-10 mt-10">
                 <Newsletter />
             </div>

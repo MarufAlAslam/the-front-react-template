@@ -88,9 +88,9 @@ const WithOptionTogglerButton = () => {
           sx={{
             backgroundColor:
               pricingOption === 'annual'
-                ? `${theme.palette.primary.light} !important`
+                ? `${'#457DE3'} !important`
                 : 'transparent',
-            // border: `1px solid ${theme.palette.primary.main}`,
+            border: `1px solid ${'#457DE3'}`,
           }}
         >
           <Typography
@@ -110,9 +110,9 @@ const WithOptionTogglerButton = () => {
           sx={{
             backgroundColor:
               pricingOption === 'monthly'
-                ? `${theme.palette.primary.light} !important`
+                ? `${'#457DE3'} !important`
                 : 'transparent',
-            // border: `1px solid ${theme.palette.primary.main}`,
+            border: `1px solid ${'#457DE3'}`,
           }}
         >
           <Typography
@@ -145,6 +145,7 @@ const WithOptionTogglerButton = () => {
               <Typography
                 variant="h3"
                 gutterBottom
+                fontFamily={'inter'}
                 align={'center'}
                 sx={{
                   fontWeight: 900,
