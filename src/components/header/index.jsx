@@ -9,7 +9,7 @@ import { FiMenu } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <header className="relative z-20 bg-white shadow-md">
+    <header className="relative z-[20000] bg-white shadow-md">
       <div className="container">
         <div className="flex justify-between items-center py-5 gap-2">
           <div className="w-2/12">
@@ -67,7 +67,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/empty-cart"
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-blue-500"
                 >
                   <span>Shop</span>

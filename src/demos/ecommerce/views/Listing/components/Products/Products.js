@@ -1,122 +1,122 @@
-import React, { useState } from 'react';
-import { alpha, useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import Link from '@mui/material/Link';
+import React, { useState } from "react";
+import { alpha, useTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
+// import CardMedia from "@mui/material/CardMedia";
+import Link from "@mui/material/Link";
 
-import { ProductQuickViewDialog } from './components';
+import { ProductQuickViewDialog } from "./components";
 
 const mock = [
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img56.jpg',
-    title: 'Adidas shoes',
-    description: 'Discover the new collection of Adidas.',
-    price: '$69.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img56.jpg",
+    title: "Adidas shoes",
+    description: "Discover the new collection of Adidas.",
+    price: "$69.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 5,
     reviewCount: 12,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img63.jpg',
-    title: 'Colorful shoes',
-    description: 'Colorful shoes designed for everyone.',
-    price: '$39.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img63.jpg",
+    title: "Colorful shoes",
+    description: "Colorful shoes designed for everyone.",
+    price: "$39.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 4,
     reviewCount: 6,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img57.jpg',
-    title: 'Nike',
-    description: 'New arrivals of Nike sport shoes.',
-    price: '$49.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img57.jpg",
+    title: "Nike",
+    description: "New arrivals of Nike sport shoes.",
+    price: "$49.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 5,
     reviewCount: 8,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img58.jpg',
-    title: 'Sneakers',
-    description: 'Trendy Sneakers designed for everyone.',
-    price: '$59.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img58.jpg",
+    title: "Sneakers",
+    description: "Trendy Sneakers designed for everyone.",
+    price: "$59.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 4,
     reviewCount: 10,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img56.jpg',
-    title: 'Adidas shoes',
-    description: 'Discover the new collection of Adidas.',
-    price: '$69.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img56.jpg",
+    title: "Adidas shoes",
+    description: "Discover the new collection of Adidas.",
+    price: "$69.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 5,
     reviewCount: 12,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img63.jpg',
-    title: 'Colorful shoes',
-    description: 'Colorful shoes designed for everyone.',
-    price: '$39.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img63.jpg",
+    title: "Colorful shoes",
+    description: "Colorful shoes designed for everyone.",
+    price: "$39.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 4,
     reviewCount: 6,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img57.jpg',
-    title: 'Nike',
-    description: 'New arrivals of Nike sport shoes.',
-    price: '$49.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img57.jpg",
+    title: "Nike",
+    description: "New arrivals of Nike sport shoes.",
+    price: "$49.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 5,
     reviewCount: 8,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img58.jpg',
-    title: 'Sneakers',
-    description: 'Trendy Sneakers designed for everyone.',
-    price: '$59.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img58.jpg",
+    title: "Sneakers",
+    description: "Trendy Sneakers designed for everyone.",
+    price: "$59.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 4,
     reviewCount: 10,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img56.jpg',
-    title: 'Adidas shoes',
-    description: 'Discover the new collection of Adidas.',
-    price: '$69.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img56.jpg",
+    title: "Adidas shoes",
+    description: "Discover the new collection of Adidas.",
+    price: "$69.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 5,
     reviewCount: 12,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img63.jpg',
-    title: 'Colorful shoes',
-    description: 'Colorful shoes designed for everyone.',
-    price: '$39.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img63.jpg",
+    title: "Colorful shoes",
+    description: "Colorful shoes designed for everyone.",
+    price: "$39.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 4,
     reviewCount: 6,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img57.jpg',
-    title: 'Nike',
-    description: 'New arrivals of Nike sport shoes.',
-    price: '$49.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img57.jpg",
+    title: "Nike",
+    description: "New arrivals of Nike sport shoes.",
+    price: "$49.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 5,
     reviewCount: 8,
   },
   {
-    media: 'https://assets.maccarianagency.com/backgrounds/img58.jpg',
-    title: 'Sneakers',
-    description: 'Trendy Sneakers designed for everyone.',
-    price: '$59.90',
-    href: '/demos/ecommerce/product-overview',
+    media: "https://assets.maccarianagency.com/backgrounds/img58.jpg",
+    title: "Sneakers",
+    description: "Trendy Sneakers designed for everyone.",
+    price: "$59.90",
+    href: "/demos/ecommerce/product-overview",
     reviewScore: 4,
     reviewCount: 10,
   },
@@ -130,19 +130,19 @@ const Products = () => {
     <Grid container spacing={{ xs: 4, md: 2 }}>
       {mock.map((item, i) => (
         <Grid item xs={12} sm={6} md={4} key={i}>
-          <Box display={'block'} width={1} height={1}>
+          <Box display={"block"} width={1} height={1}>
             <Card
               sx={{
                 width: 1,
                 height: 1,
-                display: 'flex',
-                flexDirection: 'column',
-                boxShadow: 'none',
-                bgcolor: 'transparent',
-                backgroundImage: 'none',
+                display: "flex",
+                flexDirection: "column",
+                boxShadow: "none",
+                bgcolor: "transparent",
+                backgroundImage: "none",
               }}
             >
-              <CardMedia
+              {/* <CardMedia
                 title={item.title}
                 image={item.media}
                 sx={{
@@ -184,28 +184,49 @@ const Products = () => {
                     />
                   </Box>
                 </Box>
-              </CardMedia>
+              </CardMedia> */}
+              <div className="h-[300px] w-full bg-gray-600 relative">
+                <div className="bg-white right-2 top-2 absolute min-w-[50px] min-h-[50px] rounded-full flex justify-center items-center">
+                  <Box
+                    component={"svg"}
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    width={20}
+                    height={20}
+                    color={"text.primary"}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </Box>
+                </div>
+              </div>
               <Box
                 marginTop={2}
-                display={'flex'}
-                alignItems={'center'}
-                justifyContent={'space-between'}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"space-between"}
               >
                 <Typography
                   fontWeight={700}
                   noWrap
-                  sx={{ textTransform: 'uppercase' }}
+                  sx={{ textTransform: "uppercase" }}
                 >
                   {item.title}
                 </Typography>
                 <Typography fontWeight={700}>{item.price}</Typography>
               </Box>
-              <Box marginTop={0.5} display={'flex'} alignItems={'center'}>
-                <Box display={'flex'} alignItems={'center'}>
+              <Box marginTop={0.5} display={"flex"} alignItems={"center"}>
+                <Box display={"flex"} alignItems={"center"}>
                   {[1, 2, 3, 4, 5].map((r) => (
                     <Box
                       key={r}
-                      component={'svg'}
+                      component={"svg"}
                       color={
                         r <= item.reviewScore
                           ? theme.palette.secondary.main
@@ -222,18 +243,18 @@ const Products = () => {
                   ))}
                 </Box>
                 <Typography
-                  variant={'caption'}
-                  color={'text.secondary'}
+                  variant={"caption"}
+                  color={"text.secondary"}
                   marginLeft={0.5}
                 >
                   {item.reviewCount} reviews
                 </Typography>
               </Box>
-              <Stack marginTop={2} spacing={1} direction={'row'}>
+              <Stack marginTop={2} spacing={1} direction={"row"}>
                 <Button
-                  variant={'contained'}
-                  color={'primary'}
-                  size={'large'}
+                  variant={"contained"}
+                  color={"primary"}
+                  size={"large"}
                   fullWidth
                 >
                   <svg
@@ -247,8 +268,8 @@ const Products = () => {
                   </svg>
                 </Button>
                 <Button
-                  color={'primary'}
-                  size={'large'}
+                  color={"primary"}
+                  size={"large"}
                   fullWidth
                   sx={{ bgcolor: alpha(theme.palette.primary.light, 0.1) }}
                   onClick={() => setOpenId(i)}
@@ -272,11 +293,11 @@ const Products = () => {
               <Button
                 component={Link}
                 href={item.href}
-                size={'large'}
+                size={"large"}
                 sx={{
                   color: theme.palette.text.primary,
                   marginTop: 1,
-                  justifyContent: 'space-between',
+                  justifyContent: "space-between",
                 }}
                 fullWidth
                 endIcon={

@@ -4,7 +4,7 @@ import Footer from "../../components/footer";
 import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import OrderComplete from "../../demos/ecommerce/views/OrderComplete/OrderComplete";
 
-const EmptyCartPage = () => {
+const OrderCompletePage = () => {
   return (
     <>
       <Header />
@@ -19,4 +19,4 @@ const EmptyCartPage = () => {
   );
 };
 
-export default EmptyCartPage;
+export default OrderCompletePage;

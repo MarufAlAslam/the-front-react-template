@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { useTheme } from "@mui/material/styles";
-import useMediaQuery from "@mui/material/useMediaQuery";
+// import useMediaQuery from "@mui/material/useMediaQuery";
 import Box from "@mui/material/Box";
 import Collapse from "@mui/material/Collapse";
 import Link from "@mui/material/Link";
@@ -12,23 +12,23 @@ import AppBar from "@mui/material/AppBar";
 // import TopNav from "../../views/";
 
 
-import { Topbar, Footer } from "./components";
+// import { Topbar, Footer } from "./components";
 
-import pages from "../navigation";
+// import pages from "../navigation";
 
 const Main = ({ children }) => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up("md"), {
-    defaultMatches: true,
-  });
+  // const isMd = useMediaQuery(theme.breakpoints.up("md"), {
+  //   defaultMatches: true,
+  // });
 
-  const [openMobileMenu, setOpenMobileMenu] = useState(false);
+  // const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
-  const handleMobileMenuClick = () => {
-    setOpenMobileMenu(!openMobileMenu);
-  };
+  // const handleMobileMenuClick = () => {
+  //   setOpenMobileMenu(!openMobileMenu);
+  // };
 
-  const open = isMd ? false : openMobileMenu;
+  // const open = isMd ? false : openMobileMenu;
 
   return (
     <Box>
@@ -79,11 +79,11 @@ const Main = ({ children }) => {
         }}
         elevation={0}
       >
-        <div className="container">
+        {/* <div className="container">
           <Topbar handleMobileMenuClick={handleMobileMenuClick} pages={pages} />
-        </div>
+        </div> */}
       </AppBar>
-      <Collapse in={open} timeout="auto" unmountOnExit>
+      <Collapse timeout="auto" unmountOnExit>
         <div className="container">
           {/* <MobileMenu pages={pages} /> */}
         </div>
@@ -92,9 +92,9 @@ const Main = ({ children }) => {
         {children}
         <Divider />
       </main>
-      <div className="container">
+      {/* <div className="container">
         <Footer />
-      </div>
+      </div> */}
     </Box>
   );
 };

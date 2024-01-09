@@ -59,7 +59,7 @@ const EmptyCart = () => {
           </Typography>
           <Button
             component={Link}
-            href={"/demos/ecommerce/listing"}
+            href={"/listings"}
             variant={"contained"}
             size={"large"}
             sx={{ marginTop: 4 }}
