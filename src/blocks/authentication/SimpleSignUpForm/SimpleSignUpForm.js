@@ -37,7 +37,7 @@ const SimpleSignUpForm = () => {
             Fill out the form to get started.
           </Typography>
         </Box>
-        <Card sx={{boxShadow: "unset" }}>
+        <Card sx={{ boxShadow: "unset" }}>
           <form>
             <Grid container spacing={4}>
               <Grid item xs={12} sm={6}>
@@ -129,7 +129,7 @@ const SimpleSignUpForm = () => {
                   <Link
                     component={'a'}
                     color={'primary'}
-                    href={'#'}
+                    href={'/terms'}
                     underline={'none'}
                   >
                     company terms and conditions.

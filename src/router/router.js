@@ -11,6 +11,8 @@ import OrderCompletePage from "../pages/order-completed";
 import ShoppingListing from "../pages/shopping-listing";
 import Pricing from "../pages/pricing";
 import Account from "../pages/account";
+import ForgetPassword from "../pages/forget-password";
+import Terms from "../pages/terms";
 
 export const router = createBrowserRouter([
   {
@@ -56,5 +58,13 @@ export const router = createBrowserRouter([
   {
     path: "/account",
     element: <Account />,
+  },
+  {
+    path: "/forget-password",
+    element: <ForgetPassword />,
+  },
+  {
+    path: "/terms",
+    element: <Terms />,
   },
 ]);

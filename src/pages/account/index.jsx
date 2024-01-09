@@ -2,15 +2,15 @@ import React from 'react'
 import Header from '../../components/header'
 import SimpleSignInForm from '../../blocks/authentication/SimpleSignInForm/SimpleSignInForm'
 import SimpleSignUpForm from '../../blocks/authentication/SimpleSignUpForm/SimpleSignUpForm'
-import ResetPasswordSimpleForm from '../../blocks/authentication/ResetPasswordSimpleForm/ResetPasswordSimpleForm'
+// import ResetPasswordSimpleForm from '../../blocks/authentication/ResetPasswordSimpleForm/ResetPasswordSimpleForm'
 import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
 import Footer from '../../components/footer'
 
 const Account = () => {
-    const [isForget, setIsForget] = React.useState(false)
-    const handleForget = () => {
-        setIsForget(!isForget)
-    }
+    // const [isForget, setIsForget] = React.useState(false)
+    // const handleForget = () => {
+    //     setIsForget(!isForget)
+    // }
     return (
         <>
             <Header />
@@ -21,15 +21,15 @@ const Account = () => {
                             <SimpleSignUpForm />
                         </div>
                         <div className="login p-5">
-                            <SimpleSignInForm handleForget={handleForget} />
-                            {
+                            <SimpleSignInForm />
+                            {/* {
                                 isForget && (
                                     <>
                                         <br /> <br />
                                         <ResetPasswordSimpleForm />
                                     </>
                                 )
-                            }
+                            } */}
                         </div>
 
                     </div>

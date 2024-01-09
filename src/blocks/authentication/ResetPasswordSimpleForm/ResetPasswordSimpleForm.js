@@ -66,7 +66,7 @@ const ResetPasswordSimpleForm = () => {
                       size={'large'}
                       variant={'outlined'}
                       component={Link}
-                      href={'#'}
+                      href={'/account'}
                       fullWidth
                     >
                       Back to login

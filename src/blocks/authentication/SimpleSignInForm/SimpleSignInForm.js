@@ -10,7 +10,7 @@ import Link from '@mui/material/Link';
 
 // import Container from 'components/Container';
 
-const SimpleSignInForm = ({ handleForget }) => {
+const SimpleSignInForm = () => {
   return (
     <Box bgcolor={'alternate.main'}>
       <div className='container'>
@@ -67,10 +67,10 @@ const SimpleSignInForm = ({ handleForget }) => {
                   </Box>
                   <Typography variant={'subtitle2'}>
                     <Link
-                      component={'button'}
-                      onClick={handleForget}
+                      component={'a'}
+                      // onClick={handleForget}
                       color={'primary'}
-                      // href={'#'}
+                      href={'/forget-password'}
                       underline={'none'}
                     >
                       Forgot your password?
