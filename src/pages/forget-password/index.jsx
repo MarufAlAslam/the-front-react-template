@@ -8,7 +8,7 @@ const ForgetPassword = () => {
     return (
         <>
             <Header />
-            <div className='py-20'>
+            <div className='py-20 lg:w-1/3 mx-auto'>
                 <ResetPasswordSimpleForm />
             </div>
             <div className="bg-[#1876D1] py-10 mt-10">
