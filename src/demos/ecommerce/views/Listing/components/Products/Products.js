@@ -293,7 +293,7 @@ const Products = () => {
                   </svg>
                 </Button>
               </div>
-              {/* <Button
+              <Button
                 component={Link}
                 href={item.href}
                 size={"large"}
@@ -320,7 +320,7 @@ const Products = () => {
                 }
               >
                 See the details
-              </Button> */}
+              </Button>
             </Card>
             <ProductQuickViewDialog
               open={openId === i}

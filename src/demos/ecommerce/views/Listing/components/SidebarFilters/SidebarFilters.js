@@ -5,7 +5,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Box from "@mui/material/Box";
 import Pagination from "@mui/material/Pagination";
 
-import { Sidebar } from "./components";
+import { Sidebar, Topbar } from "./components";
 
 const SidebarFilters = ({ children }) => {
   const theme = useTheme();
@@ -15,9 +15,9 @@ const SidebarFilters = ({ children }) => {
 
   const [openSidebar, setOpenSidebar] = useState(false);
 
-  // const handleSidebarOpen = () => {
-  //   setOpenSidebar(true);
-  // };
+  const handleSidebarOpen = () => {
+    setOpenSidebar(true);
+  };
 
   const handleSidebarClose = () => {
     setOpenSidebar(false);
@@ -33,7 +33,7 @@ const SidebarFilters = ({ children }) => {
         variant={isMd ? "permanent" : "temporary"}
       />
       <Box marginLeft={{ xs: 0, md: 4 }} width={1}>
-        {/* <Topbar onSidebarOpen={handleSidebarOpen} /> */}
+        <Topbar onSidebarOpen={handleSidebarOpen} />
         <Box paddingY={4}>{children}</Box>
         <Box display={"flex"} justifyContent={"center"} width={1}>
           <div className="pb-10">

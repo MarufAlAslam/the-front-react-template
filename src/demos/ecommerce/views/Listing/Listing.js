@@ -5,6 +5,9 @@ import Main from "../../layouts/Main";
 // import Container from "components/Container";
 
 import {
+  Banner,
+  Headline,
+  Newsletter,
   // Headline,
   // Banner,
   Products,
@@ -12,28 +15,31 @@ import {
   // Newsletter,
   // Partners,
 } from "./components";
+import { Box, Container } from "@mui/material";
 
 const Listing = () => {
   return (
     <Main>
-      {/* <Box bgcolor={'alternate.main'}>
+      <Box bgcolor={"alternate.main"}>
         <Container paddingY={{ xs: 2, sm: 2.5 }}>
           <Headline />
         </Container>
-      </Box> */}
-      {/* <Container paddingBottom={'0 !important'}>
+      </Box>
+      <br />
+      <Container paddingBottom={'0 !important'}>
         <Banner />
-      </Container> */}
+      </Container>
+      <br />
       <div className="container">
         <SidebarFilters>
           <Products />
         </SidebarFilters>
       </div>
-      {/* <Box bgcolor={"alternate.main"}>
+      <Box paddingY={10} bgcolor={"alternate.main"}>
         <Container>
           <Newsletter />
         </Container>
-      </Box> */}
+      </Box>
       {/* <Container>
         <Partners />
       </Container> */}
