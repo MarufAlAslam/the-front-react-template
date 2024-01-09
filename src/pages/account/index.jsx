@@ -10,11 +10,11 @@ const Account = () => {
             <Header />
             <div className='account py-20'>
                 <div className="container">
-                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-[100px]">
-                        <div className="signup border p-5">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-[50px]">
+                        <div className="signup p-5">
                             <SimpleSignUpForm />
                         </div>
-                        <div className="login border p-5">
+                        <div className="login p-5">
                             <SimpleSignInForm />
                             <br /> <br />
                             <ResetPasswordSimpleForm />
