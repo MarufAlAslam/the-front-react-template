@@ -187,7 +187,7 @@ const Products = () => {
                 </Box>
               </CardMedia> */}
               <div className="h-[300px] w-full bg-gray-600 relative">
-                <div className="bg-white right-2 top-2 absolute min-w-[50px] min-h-[50px] rounded-full flex justify-center items-center">
+                {/* <div className="bg-white right-2 top-2 absolute min-w-[50px] min-h-[50px] rounded-full flex justify-center items-center">
                   <Box
                     component={"svg"}
                     xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ const Products = () => {
                       d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                     />
                   </Box>
-                </div>
+                </div> */}
               </div>
               <Box
                 marginTop={2}
@@ -222,7 +222,7 @@ const Products = () => {
                 </Typography>
                 <Typography fontWeight={700}>{item.price}</Typography>
               </Box>
-              <Box marginTop={0.5} display={"flex"} alignItems={"center"}>
+              {/* <Box marginTop={0.5} display={"flex"} alignItems={"center"}>
                 <Box display={"flex"} alignItems={"center"}>
                   {[1, 2, 3, 4, 5].map((r) => (
                     <Box
@@ -250,7 +250,7 @@ const Products = () => {
                 >
                   {item.reviewCount} reviews
                 </Typography>
-              </Box>
+              </Box> */}
               <div className="flex py-3 justify-between items-center gap-5">
                 <Link className="w-full" to="/cart">
                   <Button
@@ -296,7 +296,7 @@ const Products = () => {
               <Button
                 component={Link}
                 href={item.href}
-                size={"large"}
+                size={"small"}
                 sx={{
                   color: theme.palette.text.primary,
                   marginTop: 1,

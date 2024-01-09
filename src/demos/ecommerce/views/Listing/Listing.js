@@ -15,20 +15,20 @@ import {
   // Newsletter,
   // Partners,
 } from "./components";
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 const Listing = () => {
   return (
     <Main>
       <Box bgcolor={"alternate.main"}>
-        <Container paddingY={{ xs: 2, sm: 2.5 }}>
+        <div className="container">
           <Headline />
-        </Container>
+        </div>
       </Box>
       <br />
-      <Container paddingBottom={'0 !important'}>
+      <div className="container">
         <Banner />
-      </Container>
+      </div>
       <br />
       <div className="container">
         <SidebarFilters>
