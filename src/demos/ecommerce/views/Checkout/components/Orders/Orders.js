@@ -1,45 +1,45 @@
-import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import Link from '@mui/material/Link';
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+import Divider from "@mui/material/Divider";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import Link from "@mui/material/Link";
 
 const mock = [
   {
-    title: 'Adidas shoes',
-    size: '41',
-    price: '$69.90',
-    code: 'D5268X149',
-    image: 'https://assets.maccarianagency.com/backgrounds/img56.jpg',
+    title: "Adidas shoes",
+    size: "41",
+    price: "$69.90",
+    code: "D5268X149",
+    image: "https://assets.maccarianagency.com/backgrounds/img56.jpg",
   },
   {
-    title: 'Nike',
-    size: '41',
-    price: '$49.90',
-    code: 'P8763Y435',
-    image: 'https://assets.maccarianagency.com/backgrounds/img57.jpg',
+    title: "Nike",
+    size: "41",
+    price: "$49.90",
+    code: "P8763Y435",
+    image: "https://assets.maccarianagency.com/backgrounds/img57.jpg",
   },
   {
-    title: 'Sneakers',
-    size: '41',
-    price: '$59.90',
-    code: 'A1356F865',
-    image: 'https://assets.maccarianagency.com/backgrounds/img58.jpg',
+    title: "Sneakers",
+    size: "41",
+    price: "$59.90",
+    code: "A1356F865",
+    image: "https://assets.maccarianagency.com/backgrounds/img58.jpg",
   },
 ];
 
 const Orders = () => {
-  const theme = useTheme();
+  // const theme = useTheme();
   return (
     <Box>
       {mock.map((item, i) => (
         <Box key={i}>
-          <Box display={'flex'}>
-            <Box
+          <Box display={"flex"}>
+            {/* <Box
               component={'img'}
               src={item.image}
               alt={item.title}
@@ -52,31 +52,32 @@ const Orders = () => {
                 filter:
                   theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
               }}
-            />
+            /> */}
+            <div className="bg-gray-600 w-[120px] h-[80px] rounded-md mr-4"></div>
             <Box
-              display={'flex'}
-              flexDirection={{ xs: 'column', sm: 'row' }}
-              justifyContent={'space-between'}
-              alignItems={'flex-start'}
+              display={"flex"}
+              flexDirection={{ xs: "column", sm: "row" }}
+              justifyContent={"space-between"}
+              alignItems={"flex-start"}
               width={1}
             >
               <Box>
-                <Typography fontWeight={700} variant={'subtitle2'}>
+                <Typography fontWeight={700} variant={"subtitle2"}>
                   {item.title}
                 </Typography>
-                <Typography color={'text.secondary'} variant={'subtitle2'}>
+                <Typography color={"text.secondary"} variant={"subtitle2"}>
                   Size: {item.size}
                 </Typography>
                 <Typography
-                  color={'text.secondary'}
-                  variant={'subtitle2'}
+                  color={"text.secondary"}
+                  variant={"subtitle2"}
                   noWrap={true}
                 >
                   Code: {item.code}
                 </Typography>
               </Box>
               <Box>
-                <Typography fontWeight={700} variant={'subtitle2'}>
+                <Typography fontWeight={700} variant={"subtitle2"}>
                   {item.price}
                 </Typography>
               </Box>
@@ -85,25 +86,25 @@ const Orders = () => {
           <Divider
             sx={{
               marginY: { xs: 2, sm: 4 },
-              display: i === mock.length - 1 ? 'none' : 'block',
+              display: i === mock.length - 1 ? "none" : "block",
             }}
           />
         </Box>
       ))}
       <Box
-        component={'form'}
+        component={"form"}
         noValidate
         autoComplete="off"
         sx={{
           marginY: 4,
-          '& .MuiInputBase-input.MuiOutlinedInput-input': {
-            bgcolor: 'background.paper',
+          "& .MuiInputBase-input.MuiOutlinedInput-input": {
+            bgcolor: "background.paper",
           },
         }}
       >
         <Box display="flex">
           <Box
-            flex={'1 1 auto'}
+            flex={"1 1 auto"}
             component={TextField}
             label="Discount code"
             variant="outlined"
@@ -127,38 +128,38 @@ const Orders = () => {
         </Box>
       </Box>
       <Stack spacing={2} marginY={{ xs: 2, sm: 4 }}>
-        <Box display={'flex'} justifyContent={'space-between'}>
-          <Typography color={'text.secondary'}>Subtotal</Typography>
-          <Typography color={'text.secondary'} fontWeight={700}>
+        <Box display={"flex"} justifyContent={"space-between"}>
+          <Typography color={"text.secondary"}>Subtotal</Typography>
+          <Typography color={"text.secondary"} fontWeight={700}>
             $179,70
           </Typography>
         </Box>
-        <Box display={'flex'} justifyContent={'space-between'}>
-          <Typography color={'text.secondary'}>Discount</Typography>
-          <Typography color={'text.secondary'} fontWeight={700}>
+        <Box display={"flex"} justifyContent={"space-between"}>
+          <Typography color={"text.secondary"}>Discount</Typography>
+          <Typography color={"text.secondary"} fontWeight={700}>
             -$0.00
           </Typography>
         </Box>
-        <Box display={'flex'} justifyContent={'space-between'}>
-          <Typography color={'text.secondary'}>VAT (+20%)</Typography>
-          <Typography color={'text.secondary'} fontWeight={700}>
+        <Box display={"flex"} justifyContent={"space-between"}>
+          <Typography color={"text.secondary"}>VAT (+20%)</Typography>
+          <Typography color={"text.secondary"} fontWeight={700}>
             $35,94
           </Typography>
         </Box>
         <Divider />
-        <Box display={'flex'} justifyContent={'space-between'}>
-          <Typography variant={'h6'} fontWeight={700}>
+        <Box display={"flex"} justifyContent={"space-between"}>
+          <Typography variant={"h6"} fontWeight={700}>
             Order total
           </Typography>
-          <Typography variant={'h6'} fontWeight={700}>
+          <Typography variant={"h6"} fontWeight={700}>
             $215,64
           </Typography>
         </Box>
         <Button
           component={Link}
-          href={'/order-completed'}
-          variant={'contained'}
-          size={'large'}
+          href={"/order-completed"}
+          variant={"contained"}
+          size={"large"}
           fullWidth
         >
           Place an order

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Link from '@mui/material/Link';
@@ -37,13 +37,13 @@ const mock = [
 ];
 
 const Orders = () => {
-  const theme = useTheme();
+  // const theme = useTheme();
   return (
     <Box>
       {mock.map((item, i) => (
         <Box key={i}>
           <Box display={'flex'}>
-            <Box
+            {/* <Box
               component={'img'}
               src={item.image}
               alt={item.title}
@@ -56,7 +56,8 @@ const Orders = () => {
                 filter:
                   theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
               }}
-            />
+            /> */}
+            <div className='bg-gray-600 w-[200px] h-[120px] rounded-md mr-5'></div>
             <Box
               display={'flex'}
               flexDirection={{ xs: 'column', sm: 'row' }}
