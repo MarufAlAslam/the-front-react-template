@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -12,7 +12,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const features = [
   {
@@ -79,9 +79,9 @@ const pricing = [
 ];
 
 const CompareTable = () => {
-  const theme = useTheme();
+  // const theme = useTheme();
   return (
-    <Container>
+    <div className='container'>
       <TableContainer component={Paper} elevation={0}>
         <Table aria-label="caption table" sx={{ minWidth: 600 }}>
           <caption>
@@ -112,7 +112,7 @@ const CompareTable = () => {
                     {pricing[0].features.indexOf(feature.id) !== -1 ? (
                       <Box
                         component={Avatar}
-                        bgcolor={theme.palette.secondary.main}
+                        bgcolor={'#1976d2'}
                         width={20}
                         height={20}
                       >
@@ -140,7 +140,7 @@ const CompareTable = () => {
                     {pricing[1].features.indexOf(feature.id) !== -1 ? (
                       <Box
                         component={Avatar}
-                        bgcolor={theme.palette.secondary.main}
+                        bgcolor={'#1976d2'}
                         width={20}
                         height={20}
                       >
@@ -168,7 +168,7 @@ const CompareTable = () => {
                     {pricing[2].features.indexOf(feature.id) !== -1 ? (
                       <Box
                         component={Avatar}
-                        bgcolor={theme.palette.secondary.main}
+                        bgcolor={'#1976d2'}
                         width={20}
                         height={20}
                       >
@@ -209,7 +209,7 @@ const CompareTable = () => {
           </TableBody>
         </Table>
       </TableContainer>
-    </Container>
+    </div>
   );
 };
 

@@ -15,7 +15,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const mock = [
   {
@@ -40,6 +40,20 @@ const mock = [
   {
     title: 'Enterprise',
     subtitle: 'Ideal for corporate companyes',
+    price: { monthly: '$77', annual: '$690' },
+    features: [
+      'All features',
+      'Email support',
+      'Google Ads',
+      'SSO via Google',
+      'API access',
+      'Facebook Ads',
+    ],
+    isHighlighted: false,
+  },
+  {
+    title: 'Premium',
+    subtitle: 'Ideal for Bigger companyes',
     price: { monthly: '$77', annual: '$690' },
     features: [
       'All features',
@@ -76,7 +90,7 @@ const WithOptionTogglerButton = () => {
               pricingOption === 'annual'
                 ? `${theme.palette.primary.light} !important`
                 : 'transparent',
-            border: `1px solid ${theme.palette.primary.main}`,
+            // border: `1px solid ${theme.palette.primary.main}`,
           }}
         >
           <Typography
@@ -98,7 +112,7 @@ const WithOptionTogglerButton = () => {
               pricingOption === 'monthly'
                 ? `${theme.palette.primary.light} !important`
                 : 'transparent',
-            border: `1px solid ${theme.palette.primary.main}`,
+            // border: `1px solid ${theme.palette.primary.main}`,
           }}
         >
           <Typography
@@ -121,11 +135,11 @@ const WithOptionTogglerButton = () => {
       <Box
         sx={{
           position: 'relative',
-          backgroundColor: theme.palette.alternate.main,
-          backgroundImage: `linear-gradient(120deg, ${theme.palette.background.paper} 0%, ${theme.palette.alternate.dark} 100%)`,
+          // backgroundColor: theme.palette.alternate.main,
+          // backgroundImage: `linear-gradient(120deg, ${theme.palette.background.paper} 0%, ${theme.palette.alternate.dark} 100%)`,
         }}
       >
-        <Container position={'relative'} zIndex={3}>
+        <div className='container'>
           <Box>
             <Box marginBottom={4}>
               <Typography
@@ -153,12 +167,12 @@ const WithOptionTogglerButton = () => {
             </Box>
             {renderToggler()}
           </Box>
-        </Container>
+        </div>
       </Box>
-      <Container>
+      <div className='container'>
         <Grid container spacing={4}>
           {mock.map((item, i) => (
-            <Grid item xs={12} md={4} key={i}>
+            <Grid item xs={12} md={3} key={i}>
               <Box
                 component={Card}
                 height={1}
@@ -213,7 +227,7 @@ const WithOptionTogglerButton = () => {
                           >
                             <Box
                               component={Avatar}
-                              bgcolor={theme.palette.primary.main}
+                              bgcolor={'#1976d2'}
                               width={20}
                               height={20}
                             >
@@ -248,7 +262,7 @@ const WithOptionTogglerButton = () => {
             </Grid>
           ))}
         </Grid>
-      </Container>
+      </div>
     </Box>
   );
 };

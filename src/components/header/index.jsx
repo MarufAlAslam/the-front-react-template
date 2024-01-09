@@ -49,7 +49,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/pricing"
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Pricing</span>

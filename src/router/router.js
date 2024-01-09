@@ -9,6 +9,7 @@ import CartPage from "../pages/cart";
 import CheckoutPage from "../pages/checkout";
 import OrderCompletePage from "../pages/order-completed";
 import ShoppingListing from "../pages/shopping-listing";
+import Pricing from "../pages/pricing";
 
 export const router = createBrowserRouter([
   {
@@ -46,5 +47,9 @@ export const router = createBrowserRouter([
   {
     path: "/listings",
     element: <ShoppingListing />,
+  },
+  {
+    path: "/pricing",
+    element: <Pricing />,
   },
 ]);
