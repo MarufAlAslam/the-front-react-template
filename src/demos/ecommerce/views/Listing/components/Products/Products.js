@@ -9,6 +9,8 @@ import Card from "@mui/material/Card";
 // import CardMedia from "@mui/material/CardMedia";
 // import Link from "@mui/material/Link";
 
+import { FaChevronRight } from "react-icons/fa";
+
 import { ProductQuickViewDialog } from "./components";
 import { Link } from "react-router-dom";
 
@@ -293,7 +295,7 @@ const Products = () => {
                   </svg>
                 </Button>
               </div>
-              <Button
+              {/* <Button
                 component={Link}
                 href={item.href}
                 size={"small"}
@@ -319,8 +321,15 @@ const Products = () => {
                   </svg>
                 }
               >
-                See the details
-              </Button>
+                
+              </Button> */}
+
+              <Link to={"/"} className="flex justify-between items-center">
+                <span>
+                  See the details
+                </span>
+                <FaChevronRight className="text-xs" />
+              </Link>
             </Card>
             <ProductQuickViewDialog
               open={openId === i}
