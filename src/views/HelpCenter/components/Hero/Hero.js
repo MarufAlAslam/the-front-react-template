@@ -20,7 +20,7 @@ const Hero = () => {
       sx={{
         // backgroundColor: theme.palette.alternate.main,
         background:
-          "url(https://assets.maccarianagency.com/backgrounds/img52.jpg) no-repeat center",
+          "url(https://assets.maccarianagency.com/backgrounds/img52.jpg) no-repeat top",
         backgroundSize: "cover",
         marginTop: -12,
         paddingTop: 30,
