@@ -4,15 +4,15 @@ import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 
-import Fluid from 'layouts/Fluid';
-import Container from 'components/Container';
-import ResizableFrame from 'components/ResizableFrame';
+// import Fluid from 'layouts/Fluid';
+// import Container from 'components/Container';
+// import ResizableFrame from 'components/ResizableFrame';
 
 const IndexView = () => {
   return (
-    <Fluid>
+    // <Fluid>
       <Box bgcolor={'alternate.main'}>
-        <Container maxWidth={1500} paddingBottom={'16px !important'}>
+        {/* <Container maxWidth={1500} paddingBottom={'16px !important'}> */}
           <Breadcrumbs aria-label="breadcrumb">
             <Link underline="hover" color="inherit" href="/blocks">
               Components
@@ -26,8 +26,8 @@ const IndexView = () => {
             </Link>
             <Typography color="text.primary">Blogs</Typography>
           </Breadcrumbs>
-        </Container>
-        <Container maxWidth={1500} paddingY={'0 !important'}>
+        {/* </Container> */}
+        {/* <Container maxWidth={1500} paddingY={'0 !important'}> */}
           <Box>
             <Typography variant={'h4'} fontWeight={700}>
               Blog
@@ -36,8 +36,8 @@ const IndexView = () => {
               Used to display blog content in a clean and organised layout.
             </Typography>
           </Box>
-        </Container>
-        <ResizableFrame
+        {/* </Container> */}
+        {/* <ResizableFrame
           src={'/blocks/blog/vertical-minimal-designed-blog-cards'}
           title={
             'Simple and minimally designed vertically aligned blog article cards'
@@ -45,14 +45,14 @@ const IndexView = () => {
           path={
             './src/blocks/blog/VerticalMinimalDesignedBlogCards/VerticalMinimalDesignedBlogCards.js|ts'
           }
-        />
-        <ResizableFrame
+        /> */}
+        {/* <ResizableFrame
           src={'/blocks/blog/blog-with-large-image'}
           title={'Blog article cards with large image'}
           path={'./src/blocks/blog/BlogWithLargeImage/BlogWithLargeImage.js|ts'}
           iframeStyles={{ minHeight: 880 }}
-        />
-        <ResizableFrame
+        /> */}
+        {/* <ResizableFrame
           src={
             '/blocks/blog/vertically-aligned-blog-card-overlapped-with-description-box'
           }
@@ -90,10 +90,10 @@ const IndexView = () => {
           title={'Vertically aligned blog card with shaped image'}
           path={
             './src/blocks/blog/VerticallyAlignedBlogCardsWithShapedImage/VerticallyAlignedBlogCardsWithShapedImage.js|ts'
-          }
-        />
+          } */}
+        {/* /> */}
       </Box>
-    </Fluid>
+    // </Fluid>
   );
 };
 

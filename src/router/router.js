@@ -13,6 +13,7 @@ import Pricing from "../pages/pricing";
 import Account from "../pages/account";
 import ForgetPassword from "../pages/forget-password";
 import Terms from "../pages/terms";
+import News from "../pages/news";
 
 export const router = createBrowserRouter([
   {
@@ -66,5 +67,9 @@ export const router = createBrowserRouter([
   {
     path: "/terms",
     element: <Terms />,
+  },
+  {
+    path: "/news",
+    element: <News />,
   },
 ]);
