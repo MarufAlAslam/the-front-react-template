@@ -1,41 +1,39 @@
-import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
 
-import Main from 'layouts/Main';
-import Container from 'components/Container';
-import { Breadcrumb, Categories, Questions } from './components';
+// import Main from "layouts/Main";
+// import Container from "components/Container";
+import { Questions } from "./components";
 
 const HelpCenterArticle = () => {
   const theme = useTheme();
   return (
-    <Main>
-      <Box bgcolor={'alternate.main'}>
-        <Container paddingY={`${theme.spacing(2)} !important`}>
+    <div>
+      {/* <Box>
+        <div className="container">
           <Breadcrumb />
-        </Container>
-      </Box>
-      <Container>
+        </div>
+      </Box> */}
+      <div className="container">
         <Questions />
-      </Container>
+      </div>
       <Box
-        position={'relative'}
+        position={"relative"}
         sx={{
-          backgroundColor: theme.palette.alternate.main,
+          // backgroundColor: theme.palette.alternate.main,
         }}
       >
-        <Container>
-          <Categories />
-        </Container>
+        {/* <Categories /> */}
         <Box
-          component={'svg'}
+          component={"svg"}
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
           viewBox="0 0 1920 100.1"
           sx={{
-            width: '100%',
+            width: "100%",
             marginBottom: theme.spacing(-1),
           }}
         >
@@ -45,7 +43,7 @@ const HelpCenterArticle = () => {
           ></path>
         </Box>
       </Box>
-    </Main>
+    </div>
   );
 };
 

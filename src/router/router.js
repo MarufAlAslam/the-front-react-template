@@ -14,6 +14,7 @@ import Account from "../pages/account";
 import ForgetPassword from "../pages/forget-password";
 import Terms from "../pages/terms";
 import News from "../pages/news";
+import Help from "../pages/help";
 
 export const router = createBrowserRouter([
   {
@@ -71,5 +72,9 @@ export const router = createBrowserRouter([
   {
     path: "/news",
     element: <News />,
+  },
+  {
+    path: "/help",
+    element: <Help />,
   },
 ]);

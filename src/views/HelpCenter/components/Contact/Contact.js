@@ -145,7 +145,7 @@ const Contact = () => {
             >
               <Box
                 component={Avatar}
-                bgcolor={theme.palette.secondary.main}
+                bgcolor={'#F9B934'}
                 width={40}
                 height={40}
               >
