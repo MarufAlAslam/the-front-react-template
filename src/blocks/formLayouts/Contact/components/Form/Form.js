@@ -18,7 +18,7 @@ const Form = () => {
         padding={{ xs: 3, sm: 6 }}
         width={1}
         component={Card}
-        boxShadow={1}
+        boxShadow={0}
         marginBottom={4}
       >
         <form noValidate autoComplete="off">
