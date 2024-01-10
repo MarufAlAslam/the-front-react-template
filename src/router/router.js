@@ -15,6 +15,9 @@ import ForgetPassword from "../pages/forget-password";
 import Terms from "../pages/terms";
 import News from "../pages/news";
 import Help from "../pages/help";
+import PrivacyPolicy from "../pages/privacy-policy";
+import DataPolicy from "../pages/data-policy";
+import CookiePolicy from "../pages/cookie-policy";
 
 export const router = createBrowserRouter([
   {
@@ -68,6 +71,18 @@ export const router = createBrowserRouter([
   {
     path: "/terms",
     element: <Terms />,
+  },
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
+  },
+  {
+    path: "/data-policy",
+    element: <DataPolicy />,
+  },
+  {
+    path: "/cookie-policy",
+    element: <CookiePolicy />,
   },
   {
     path: "/news",

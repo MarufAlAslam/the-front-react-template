@@ -90,7 +90,7 @@ const Form = () => {
                   By clicking on "submit" you agree to our{' '}
                   <Box
                     component="a"
-                    href=""
+                    href="/privacy-policy"
                     color={theme.palette.text.primary}
                     fontWeight={'700'}
                   >
@@ -99,7 +99,7 @@ const Form = () => {
                   ,{' '}
                   <Box
                     component="a"
-                    href=""
+                    href="/data-policy"
                     color={theme.palette.text.primary}
                     fontWeight={'700'}
                   >
@@ -108,7 +108,7 @@ const Form = () => {
                   and{' '}
                   <Box
                     component="a"
-                    href=""
+                    href="/cookie-policy"
                     color={theme.palette.text.primary}
                     fontWeight={'700'}
                   >
