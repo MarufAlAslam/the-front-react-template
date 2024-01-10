@@ -118,7 +118,28 @@ const mock4 = [
   },
 ];
 
-const titles = ["Title 1", "Title 2", "Title 3", "Title 4", "Title 5"];
+const titles = [
+  {
+    title: "Title 1",
+    subtitle: "subtitle 1",
+  },
+  {
+    title: "Title 2",
+    subtitle: "subtitle 2",
+  },
+  {
+    title: "Title 3",
+    subtitle: "subtitle 3",
+  },
+  {
+    title: "Title 4",
+    subtitle: "subtitle 4",
+  },
+  {
+    title: "Title 5",
+    subtitle: "subtitle 5",
+  },
+];
 
 const Questions = () => {
   return (
@@ -126,7 +147,10 @@ const Questions = () => {
       <Box>
         <Box marginBottom={2}>
           <Typography fontWeight={600} variant={"h4"}>
-            {titles[0]}
+            {titles[0].title}
+          </Typography>
+          <Typography color={"gray"} fontWeight={400} variant={"p"}>
+            {titles[0].subtitle}
           </Typography>
         </Box>
         <Box>
@@ -202,7 +226,10 @@ const Questions = () => {
       <Box>
         <Box marginBottom={2} marginTop={4}>
           <Typography fontWeight={600} variant={"h4"}>
-            {titles[1]}
+            {titles[1].title}
+          </Typography>
+          <Typography color={"gray"} fontWeight={400} variant={"p"}>
+            {titles[1].subtitle}
           </Typography>
         </Box>
         <Box>
@@ -278,7 +305,10 @@ const Questions = () => {
       <Box>
         <Box marginBottom={2} marginTop={4}>
           <Typography fontWeight={600} variant={"h4"}>
-            {titles[2]}
+            {titles[2].title}
+          </Typography>
+          <Typography color={"gray"} fontWeight={400} variant={"p"}>
+            {titles[2].subtitle}
           </Typography>
         </Box>
         <Box>
@@ -354,7 +384,10 @@ const Questions = () => {
       <Box>
         <Box marginBottom={2} marginTop={4}>
           <Typography fontWeight={600} variant={"h4"}>
-            {titles[3]}
+            {titles[3].title}
+          </Typography>
+          <Typography color={"gray"} fontWeight={400} variant={"p"}>
+            {titles[3].subtitle}
           </Typography>
         </Box>
         <Box>
