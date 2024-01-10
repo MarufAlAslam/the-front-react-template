@@ -50,6 +50,7 @@ const Hero = () => {
                   fontWeight: 900,
                   color: "white",
                 }}
+                paddingLeft={3}
               >
                 What do you need?
               </Typography>
@@ -61,6 +62,7 @@ const Hero = () => {
                   fontWeight: 400,
                   color: "white",
                 }}
+                paddingLeft={3}
               >
                 We are founded by a leading academic and researcher in the field
                 of Industrial Systems Engineering.

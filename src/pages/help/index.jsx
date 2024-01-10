@@ -10,7 +10,9 @@ const Help = () => {
   return (
     <div>
       <Header />
-      <Hero />
+      <div className="container">
+        <Hero />
+      </div>
       <HelpCenterArticle />
       <div className="container">
         <Contact />
