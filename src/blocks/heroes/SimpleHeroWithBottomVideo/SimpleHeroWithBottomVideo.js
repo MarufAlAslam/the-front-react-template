@@ -1,22 +1,22 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+// import useMediaQuery from '@mui/material/useMediaQuery';
+import Box from "@mui/material/Box";
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
 
-import Container from 'components/Container';
+// import Container from "components/Container";
 
 const SimpleHeroWithBottomVideo = () => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
-    defaultMatches: true,
-  });
+  // const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+  //   defaultMatches: true,
+  // });
 
   return (
     <Box>
-      <Container>
+      {/* <Container>
         <Box>
           <Box marginBottom={2}>
             <Typography
@@ -82,16 +82,16 @@ const SimpleHeroWithBottomVideo = () => {
             </Box>
           </Box>
         </Box>
-      </Container>
-      <Container maxWidth={1} paddingTop={'0 !important'}>
+      </Container> */}
+      <div className="container">
         <Box
           sx={{
-            position: 'relative',
-            display: 'flex',
-            alignItems: 'center',
-            '&::after': {
+            position: "relative",
+            display: "flex",
+            alignItems: "center",
+            "&::after": {
               content: '""',
-              position: 'absolute',
+              position: "absolute",
               left: 0,
               right: 0,
               bottom: 0,
@@ -105,7 +105,7 @@ const SimpleHeroWithBottomVideo = () => {
           }}
         >
           <Box
-            component={'video'}
+            component={"video"}
             width={1}
             autoPlay={true}
             muted={true}
@@ -126,7 +126,7 @@ const SimpleHeroWithBottomVideo = () => {
             Your browser do not support HTML5 video.
           </Box>
         </Box>
-      </Container>
+      </div>
     </Box>
   );
 };

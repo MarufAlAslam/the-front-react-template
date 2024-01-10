@@ -7,14 +7,20 @@ import WithBorderedCardsAndBrandColor from "../../blocks/stats/WithBorderedCards
 // import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import Footer from "../../components/footer";
 import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+import SimpleHeroWithBottomVideo from "../../blocks/heroes/SimpleHeroWithBottomVideo/SimpleHeroWithBottomVideo";
+import FeatureListWithDesktopAppScreenshot from "../../blocks/features/FeatureListWithDesktopAppScreenshot/FeatureListWithDesktopAppScreenshot";
 
 const Homepage = () => {
   return (
     <>
       <Header />
+      <div className="py-10">
+        <SimpleHeroWithBottomVideo />
+      </div>
       <Hero />
       <VerticalStepper />
       {/* <VerticalMinimalDesignedBlogCards items={30} /> */}
+      <FeatureListWithDesktopAppScreenshot />
       <WithBorderedCardsAndBrandColor />
       {/* <CtaWithInputField /> */}
       <div className="bg-[#1876D1] py-10">
