@@ -10,6 +10,7 @@ const Help = () => {
   return (
     <div>
       <Header />
+      <div className="pt-28"></div>
       <div className="container">
         <Hero />
       </div>
