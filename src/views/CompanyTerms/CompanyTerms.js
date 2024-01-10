@@ -13,8 +13,8 @@ const CompanyTerms = () => {
 
   return (
     <div className='container'>
-      <Box boxShadow={4} borderRadius={2}>
-        <Box bgcolor={theme.palette.primary.main} borderRadius={2}>
+      <Box boxShadow={4} borderRadius={2} overflow={"hidden"}>
+        <Box bgcolor={theme.palette.primary.main} marginBottom={3} borderRadius={0}>
           {/* <Container paddingX={{ xs: 2, sm: 4 }}> */}
           <Typography
             variant={'h4'}
@@ -39,7 +39,7 @@ const CompanyTerms = () => {
             Last modified on <strong>23 Aug, 2021</strong>
           </Typography>
           {/* </Container> */}
-          <Box
+          {/* <Box
             component={'svg'}
             preserveAspectRatio="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const CompanyTerms = () => {
               fill={theme.palette.background.paper}
               d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"
             ></path>
-          </Box>
+          </Box> */}
         </Box>
         {/* <Container
         paddingTop={'0 !important'}
@@ -69,10 +69,10 @@ const CompanyTerms = () => {
           paddingBottom={theme.spacing(10)}
           flexDirection={{ xs: 'column-reverse', md: 'row' }}
         >
-          <Grid item xs={12} md={9}>
+          <Grid item xs={12} md={12}>
             <Content />
           </Grid>
-          <Grid item xs={12} md={3}>
+          {/* <Grid item xs={12} md={3}>
             <Box
               position={'sticky'}
               top={theme.spacing(10)}
@@ -80,7 +80,7 @@ const CompanyTerms = () => {
             >
               <ContactCard />
             </Box>
-          </Grid>
+          </Grid> */}
         </Box>
         {/* </Container> */}
       </Box>
