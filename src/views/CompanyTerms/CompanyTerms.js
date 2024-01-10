@@ -1,23 +1,27 @@
-import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 
 // import Main from 'layouts/Main';
 // import Container from 'components/Container';
-import { ContactCard, Content } from './components';
+import { Content } from "./components";
 
 const CompanyTerms = () => {
   const theme = useTheme();
 
   return (
-    <div className='container'>
+    <div className="container">
       <Box boxShadow={4} borderRadius={2} overflow={"hidden"}>
-        <Box bgcolor={theme.palette.primary.main} marginBottom={3} borderRadius={0}>
+        <Box
+          bgcolor={theme.palette.primary.main}
+          marginBottom={3}
+          borderRadius={0}
+        >
           {/* <Container paddingX={{ xs: 2, sm: 4 }}> */}
           <Typography
-            variant={'h4'}
+            variant={"h4"}
             gutterBottom
             sx={{
               fontWeight: 700,
@@ -67,7 +71,7 @@ const CompanyTerms = () => {
           spacing={4}
           paddingX={theme.spacing(5)}
           paddingBottom={theme.spacing(10)}
-          flexDirection={{ xs: 'column-reverse', md: 'row' }}
+          flexDirection={{ xs: "column-reverse", md: "row" }}
         >
           <Grid item xs={12} md={12}>
             <Content />
