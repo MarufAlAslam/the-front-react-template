@@ -142,7 +142,7 @@ const WithOptionTogglerButton = () => {
         <div className='container'>
           <Box>
             <Box marginBottom={4}>
-              <Typography
+              {/* <Typography
                 variant="h3"
                 gutterBottom
                 fontFamily={'inter'}
@@ -152,8 +152,8 @@ const WithOptionTogglerButton = () => {
                 }}
               >
                 Flexible pricing options
-              </Typography>
-              <Typography
+              </Typography> */}
+              {/* <Typography
                 variant="h6"
                 component="p"
                 color="text.primary"
@@ -164,7 +164,7 @@ const WithOptionTogglerButton = () => {
                 <br />
                 For entrepreneurs, startups and freelancers. If you didn’t find
                 what you needed, these could help!
-              </Typography>
+              </Typography> */}
             </Box>
             {renderToggler()}
           </Box>

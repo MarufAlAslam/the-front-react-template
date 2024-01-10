@@ -1,87 +1,97 @@
-import React from 'react';
+import React from "react";
 // import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+import Box from "@mui/material/Box";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
 
 // import Container from 'components/Container';
 
 const features = [
   {
-    title: '1 User',
+    title: "1 User",
     id: 1,
   },
   {
-    title: '1 App',
+    title: "1 App",
     id: 2,
   },
   {
-    title: 'Integrations',
+    title: "Integrations",
     id: 3,
   },
   {
-    title: 'Google Ads',
+    title: "Google Ads",
     id: 4,
   },
   {
-    title: 'SSO via Google',
+    title: "SSO via Google",
     id: 5,
   },
   {
-    title: 'API access',
+    title: "API access",
     id: 6,
   },
   {
-    title: 'Facebook Ads',
+    title: "Facebook Ads",
     id: 7,
   },
 ];
 
 const pricing = [
   {
-    title: 'Starter',
+    title: "Starter",
     price: {
       monthly: 22,
       annual: 210,
     },
     features: [1, 2, 3, 7],
     isHighlighted: false,
-    btnText: 'Get Starter',
+    btnText: "Get Starter",
   },
   {
-    title: 'Pro',
+    title: "Pro",
     price: {
       annual: 420,
       monthly: 44,
     },
     features: [1, 3, 4, 5],
     isHighlighted: true,
-    btnText: 'Get Pro',
+    btnText: "Get Pro",
   },
   {
-    title: 'Enterprise',
+    title: "Enterprise",
+    price: {
+      annual: 740,
+      monthly: 77,
+    },
+    features: [1, 2, 3, 6, 7],
+    isHighlighted: false,
+    btnText: "Get Enterprise",
+  },
+  {
+    title: "Premium",
     price: {
       annual: 740,
       monthly: 77,
     },
     features: [1, 2, 3, 4, 5, 6, 7],
     isHighlighted: false,
-    btnText: 'Contact us',
-  },
+    btnText: "Get Premium",
+  }
 ];
 
 const CompareTable = () => {
   // const theme = useTheme();
   return (
-    <div className='container'>
+    <div className="container">
       <TableContainer component={Paper} elevation={0}>
         <Table aria-label="caption table" sx={{ minWidth: 600 }}>
           <caption>
@@ -93,7 +103,7 @@ const CompareTable = () => {
               {pricing.map((item, i) => (
                 <TableCell align="center" key={i}>
                   <Typography
-                    sx={{ textTransform: 'uppercase', fontWeight: 'medium' }}
+                    sx={{ textTransform: "uppercase", fontWeight: "medium" }}
                   >
                     {item.title}
                   </Typography>
@@ -108,11 +118,11 @@ const CompareTable = () => {
                   {feature.title}
                 </TableCell>
                 <TableCell align="center">
-                  <Box display={'flex'} justifyContent={'center'}>
+                  <Box display={"flex"} justifyContent={"center"}>
                     {pricing[0].features.indexOf(feature.id) !== -1 ? (
                       <Box
                         component={Avatar}
-                        bgcolor={'#1976d2'}
+                        bgcolor={"#1976d2"}
                         width={20}
                         height={20}
                       >
@@ -131,16 +141,16 @@ const CompareTable = () => {
                         </svg>
                       </Box>
                     ) : (
-                      ''
+                      ""
                     )}
                   </Box>
                 </TableCell>
                 <TableCell align="center">
-                  <Box display={'flex'} justifyContent={'center'}>
+                  <Box display={"flex"} justifyContent={"center"}>
                     {pricing[1].features.indexOf(feature.id) !== -1 ? (
                       <Box
                         component={Avatar}
-                        bgcolor={'#1976d2'}
+                        bgcolor={"#1976d2"}
                         width={20}
                         height={20}
                       >
@@ -159,16 +169,16 @@ const CompareTable = () => {
                         </svg>
                       </Box>
                     ) : (
-                      ''
+                      ""
                     )}
                   </Box>
                 </TableCell>
                 <TableCell align="center">
-                  <Box display={'flex'} justifyContent={'center'}>
+                  <Box display={"flex"} justifyContent={"center"}>
                     {pricing[2].features.indexOf(feature.id) !== -1 ? (
                       <Box
                         component={Avatar}
-                        bgcolor={'#1976d2'}
+                        bgcolor={"#1976d2"}
                         width={20}
                         height={20}
                       >
@@ -187,7 +197,35 @@ const CompareTable = () => {
                         </svg>
                       </Box>
                     ) : (
-                      ''
+                      ""
+                    )}
+                  </Box>
+                </TableCell>
+                <TableCell align="center">
+                  <Box display={"flex"} justifyContent={"center"}>
+                    {pricing[3].features.indexOf(feature.id) !== -1 ? (
+                      <Box
+                        component={Avatar}
+                        bgcolor={"#1976d2"}
+                        width={20}
+                        height={20}
+                      >
+                        <svg
+                          width={12}
+                          height={12}
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </Box>
+                    ) : (
+                      ""
                     )}
                   </Box>
                 </TableCell>
@@ -198,8 +236,8 @@ const CompareTable = () => {
               {pricing.map((item, i) => (
                 <TableCell align="center" key={i}>
                   <Button
-                    size={'large'}
-                    variant={item.isHighlighted ? 'contained' : 'outlined'}
+                    size={"large"}
+                    variant={item.isHighlighted ? "contained" : "outlined"}
                   >
                     {item.btnText}
                   </Button>
