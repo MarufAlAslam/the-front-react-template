@@ -97,7 +97,7 @@ const SimpleHeroWithBottomVideo = () => {
               bottom: 0,
               top: 0,
               width: 1,
-              height: 1,
+              height: "500px",
               zIndex: 3,
               background: theme.palette.primary.main,
               opacity: 0.2,
@@ -107,6 +107,10 @@ const SimpleHeroWithBottomVideo = () => {
           <Box
             component={"video"}
             width={1}
+            height={"500px"}
+            style={{
+              objectFit: "cover",
+            }}
             autoPlay={true}
             muted={true}
             loop={true}
