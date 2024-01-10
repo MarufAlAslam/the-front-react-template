@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <>
       <Header />
-      <div className="py-10">
+      <div className="py-0">
         <SimpleHeroWithBottomVideo />
       </div>
       <Hero />
