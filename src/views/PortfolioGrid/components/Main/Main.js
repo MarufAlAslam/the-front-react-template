@@ -125,7 +125,7 @@ const Main = () => {
     <Box>
       <Grid container spacing={4}>
         {mock.map((item, i) => (
-          <Grid item xs={12} sm={6} md={3} key={i}>
+          <Grid item xs={12} sm={6} md={2.4} key={i}>
             <Box
               component={"a"}
               href={""}
