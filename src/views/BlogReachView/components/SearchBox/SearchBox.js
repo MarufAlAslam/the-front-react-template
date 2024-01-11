@@ -4,16 +4,16 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
-import Chip from '@mui/material/Chip';
+// import Chip from '@mui/material/Chip';
 
-const mock = [
-  'Business',
-  'Strategy',
-  'Health',
-  'Creative',
-  'Environment',
-  'Stories',
-];
+// const mock = [
+//   'Business',
+//   'Strategy',
+//   'Health',
+//   'Creative',
+//   'Environment',
+//   'Stories',
+// ];
 
 const SearchBox = () => {
   return (
@@ -79,7 +79,7 @@ const SearchBox = () => {
           </Box>
         </form>
       </Box>
-      <Box>
+      {/* <Box>
         {mock.map((item) => (
           <Chip
             key={item}
@@ -90,7 +90,7 @@ const SearchBox = () => {
             sx={{ margin: 0.5 }}
           />
         ))}
-      </Box>
+      </Box> */}
     </Box>
   );
 };
