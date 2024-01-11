@@ -35,7 +35,7 @@ const Header = () => {
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Branches</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
               <li>
@@ -44,7 +44,7 @@ const Header = () => {
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Functions</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
               <li>
