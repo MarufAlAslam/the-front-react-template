@@ -11,19 +11,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Company</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                About Us
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                History
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Purpose, Mission, and Values
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Partners
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Corporate Social Responsibility
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -308,8 +308,6 @@ const Footer = () => {
             </ul>
           </div> */}
         </div>
-
-
       </div>
       <div className="bottom-footerr mt-10 border-t pt-10">
         <div className="container">
@@ -317,7 +315,6 @@ const Footer = () => {
             <Link to="/" className="text-2xl font-bold text-gray-800">
               <img src={logo} className="w-[120px]" alt="" />
             </Link>
-
           </div>
 
           <div className="mt-5">
@@ -326,7 +323,10 @@ const Footer = () => {
                 © 2021 Company, Inc. All rights reserved.
               </p>
               <p className="text-gray-600 text-sm">
-                When you visit or interact with our sites, services or tools,we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.
+                When you visit or interact with our sites, services or tools,we
+                or our authorised service providers may use cookies for storing
+                information to help provide you with a better, faster and safer
+                experience and for marketing purposes.
               </p>
             </div>
           </div>

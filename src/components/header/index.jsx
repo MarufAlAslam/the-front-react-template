@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.svg";
 import { CiCircleQuestion, CiGlobe, CiSearch, CiUser } from "react-icons/ci";
-import { HiOutlineChevronDown } from "react-icons/hi2";
+// import { HiOutlineChevronDown } from "react-icons/hi2";
 import { FiMenu } from "react-icons/fi";
 
 // import { FaQuestionCircle, FaSearch } from "react-icons/fa";
