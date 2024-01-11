@@ -146,7 +146,7 @@ const Questions = () => {
     <div className="pt-10">
       <Box>
         <Box marginBottom={2}>
-          <Typography fontWeight={600} variant={"h4"}>
+          <Typography fontWeight={600} variant={"h5"}>
             {titles[0].title}
           </Typography>
           <Typography color={"gray"} fontWeight={400} variant={"p"}>
@@ -159,6 +159,7 @@ const Questions = () => {
               component={Accordion}
               key={i}
               paddingY={1}
+              paddingX={0}
               elevation={0}
               sx={{
                 "&:first-of-type": {
@@ -190,7 +191,7 @@ const Questions = () => {
               </Box>
               <AccordionDetails>
                 <Typography>{item.text}</Typography>
-                <Box display={"flex"} justifyContent={"flex-end"}>
+                <Box display={"flex"} justifyContent={"flex-start"}>
                   <Box
                     component={Button}
                     color="primary"
@@ -269,7 +270,7 @@ const Questions = () => {
               </Box>
               <AccordionDetails>
                 <Typography>{item.text}</Typography>
-                <Box display={"flex"} justifyContent={"flex-end"}>
+                <Box display={"flex"} justifyContent={"flex-start"}>
                   <Box
                     component={Button}
                     color="primary"
@@ -317,6 +318,7 @@ const Questions = () => {
               component={Accordion}
               key={i}
               paddingY={1}
+              paddingX={0}
               elevation={0}
               sx={{
                 "&:first-of-type": {
@@ -348,12 +350,13 @@ const Questions = () => {
               </Box>
               <AccordionDetails>
                 <Typography>{item.text}</Typography>
-                <Box display={"flex"} justifyContent={"flex-end"}>
+                <Box display={"flex"} justifyContent={"flex-start"}>
                   <Box
                     component={Button}
                     color="primary"
                     size="small"
                     marginTop={2}
+                    paddingX={0}
                     variant={"outlined"}
                     endIcon={
                       <Box
@@ -427,7 +430,7 @@ const Questions = () => {
               </Box>
               <AccordionDetails>
                 <Typography>{item.text}</Typography>
-                <Box display={"flex"} justifyContent={"flex-end"}>
+                <Box display={"flex"} justifyContent={"flex-start"}>
                   <Box
                     component={Button}
                     color="primary"

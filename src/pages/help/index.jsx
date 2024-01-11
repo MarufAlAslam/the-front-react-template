@@ -23,7 +23,7 @@ const Help = () => {
       <div className="bg-[#1876D1] py-10 mt-10">
         <Newsletter />
       </div>
-      <div className="mt-10">
+      <div className="">
         <Footer />
       </div>
     </div>
