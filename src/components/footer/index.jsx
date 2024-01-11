@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-5 gap-[30px]">
           <div className="item">
-            <h3 className="text-black font-bold">Company</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -28,7 +28,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Careers</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -48,7 +48,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Press</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -68,7 +68,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="s text-black font-bold">FAQ</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -88,7 +88,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Terms and Conditions</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -108,7 +108,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Privacy</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -128,7 +128,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Cookies</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -148,7 +148,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Terms of Use</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -168,7 +168,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Contact</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
@@ -188,7 +188,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="item">
-            <h3 className="text-black font-bold">Payments</h3>
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
                 Lorem Ipsum
