@@ -89,7 +89,7 @@ const Header = () => {
           <div className="w-2/12">
             <ul className="flex justify-end items-center gap-4">
               <li>
-                <Link to="/" className="text-gray-800 hover:text-gray-600">
+                <Link to="/search" className="text-gray-800 hover:text-gray-600">
                   <CiSearch className="text-2xl" />
                 </Link>
               </li>

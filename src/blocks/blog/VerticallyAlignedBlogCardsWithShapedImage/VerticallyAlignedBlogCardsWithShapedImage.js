@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import Card from "@mui/material/Card";
@@ -50,7 +50,7 @@ const VerticallyAlignedBlogCardsWithShapedImage = () => {
   const theme = useTheme();
   return (
     <div className="container">
-      <Box
+      {/* <Box
         display={"flex"}
         justifyContent={"space-between"}
         alignItems={{ xs: "flex-start", sm: "center" }}
@@ -76,7 +76,7 @@ const VerticallyAlignedBlogCardsWithShapedImage = () => {
             View all
           </Box>
         </Box>
-      </Box>
+      </Box> */}
       <Grid container spacing={4}>
         {mock.map((item, i) => (
           <Grid item xs={12} sm={6} md={4} key={i}>

@@ -1,0 +1,26 @@
+import React from "react";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import SearchBox from "../../views/BlogReachView/components/SearchBox/SearchBox";
+import VerticallyAlignedBlogCardsWithShapedImage from "../../blocks/blog/VerticallyAlignedBlogCardsWithShapedImage/VerticallyAlignedBlogCardsWithShapedImage";
+import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+
+const Search = () => {
+  return (
+    <div>
+      <Header />
+      <div className="container">
+        <div className="py-20">
+          <SearchBox />
+          <VerticallyAlignedBlogCardsWithShapedImage />
+        </div>
+      </div>
+      <div className="bg-[#1876D1] py-10">
+        <Newsletter />
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Search;

@@ -18,6 +18,7 @@ import Help from "../pages/help";
 import PrivacyPolicy from "../pages/privacy-policy";
 import DataPolicy from "../pages/data-policy";
 import CookiePolicy from "../pages/cookie-policy";
+import Search from "../pages/search";
 
 export const router = createBrowserRouter([
   {
@@ -91,5 +92,9 @@ export const router = createBrowserRouter([
   {
     path: "/help",
     element: <Help />,
+  },
+  {
+    path: "/search",
+    element: <Search />,
   },
 ]);
