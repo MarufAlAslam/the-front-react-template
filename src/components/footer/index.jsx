@@ -1,6 +1,10 @@
 import { Link } from "@mui/material";
 import React from "react";
 import logo from "../../assets/img/logo.svg";
+import { CiLinkedin } from "react-icons/ci";
+import { BsTwitterX } from "react-icons/bs";
+import { FaYoutube } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -395,7 +399,12 @@ const Footer = () => {
             <Link to="/" className="text-2xl font-bold text-gray-800">
               <img src={logo} className="w-[120px]" alt="" />
             </Link>
-            <div className="flex justify-end"></div>
+            <div className="flex justify-end items-center gap-5">
+              <CiLinkedin className="text-2xl" />
+              <BsTwitterX className="text-xl" />
+              <FaYoutube className="text-2xl" />
+              <AiFillInstagram className="text-2xl" />
+            </div>
           </div>
 
           <div className="mt-5">
