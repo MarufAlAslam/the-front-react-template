@@ -89,7 +89,10 @@ const Header = () => {
           <div className="w-2/12">
             <ul className="flex justify-end items-center gap-4">
               <li>
-                <Link to="/search" className="text-gray-800 hover:text-gray-600">
+                <Link
+                  to="/search"
+                  className="text-gray-800 hover:text-gray-600"
+                >
                   <CiSearch className="text-2xl" />
                 </Link>
               </li>
@@ -104,7 +107,10 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/account" className="text-gray-800 hover:text-gray-600">
+                <Link
+                  to="/account"
+                  className="text-gray-800 hover:text-gray-600"
+                >
                   <CiUser className="text-2xl" />
                 </Link>
               </li>
@@ -120,6 +126,101 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      {/* <div className="languages p-5 grid grid-cols-3 gap-5">
+        <div className="item text-left">
+          <div className="lang">
+            <h2 className="text-xl px-4 mb-3 font-bold">North America</h2>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+          </div>
+          <div className="lang mt-5">
+            <h2 className="text-xl px-4 mb-3 font-bold">Middle-East</h2>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+          </div>
+        </div>
+        <div className="item">
+          <div className="lang">
+            <h2 className="text-xl px-4 mb-3 font-bold">Asia Pacific</h2>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+            <button className="btn block text-left bg-white py-2 px-4 hover:bg-gray-100 rounded-[5px]">
+              <p>United States</p>
+              <p className="text-xs">English</p>
+            </button>
+          </div>
+        </div>
+        <div className="item cols-2">
+          <div className="grid grid-cols-3 gap-5"></div>
+        </div>
+      </div> */}
     </header>
   );
 };
