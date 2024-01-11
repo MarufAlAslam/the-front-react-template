@@ -395,6 +395,7 @@ const Footer = () => {
             <Link to="/" className="text-2xl font-bold text-gray-800">
               <img src={logo} className="w-[120px]" alt="" />
             </Link>
+            <div className="flex justify-end"></div>
           </div>
 
           <div className="mt-5">
