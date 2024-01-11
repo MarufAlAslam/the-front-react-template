@@ -207,7 +207,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="item">
+          {/* <div className="item">
             <h3 className="text-black font-bold">User Rights</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
@@ -306,7 +306,7 @@ const Footer = () => {
                 Consulting
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
 

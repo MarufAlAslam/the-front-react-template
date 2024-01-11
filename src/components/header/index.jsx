@@ -19,14 +19,14 @@ const Header = () => {
           </div>
 
           <div className="w-8/12">
-            <ul className="flex justify-center items-center gap-4">
+            <ul className="flex justify-center items-center gap-7">
               <li>
                 <Link
                   to="/"
                   className="text-gray-800 text-[15px] hover:text-[#1876D1] flex items-center gap-1"
                 >
                   <span>Company</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Header = () => {
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Pricing</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ const Header = () => {
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Chatbot</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
               <li>
@@ -71,7 +71,7 @@ const Header = () => {
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>Shop</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
               <li>
@@ -80,7 +80,7 @@ const Header = () => {
                   className="text-gray-800 text-[15px] flex items-center gap-1 hover:text-[#1876D1]"
                 >
                   <span>News</span>
-                  <HiOutlineChevronDown className="text-[#1876D1]" />
+                  {/* <HiOutlineChevronDown className="text-[#1876D1]" /> */}
                 </Link>
               </li>
             </ul>
