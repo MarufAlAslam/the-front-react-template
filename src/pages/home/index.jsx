@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <>
       <Header />
-      <div className="pt-0">
+      <div className="pt-0 pb-10">
         <SimpleHeroWithBottomVideo />
       </div>
       {/* <Hero /> */}
