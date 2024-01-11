@@ -31,19 +31,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Careers</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Explore
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Jobs
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Interviews
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Teams
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Employee Benefits
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -51,19 +51,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Press</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Media Coverage
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Press Releases
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                In the News
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Company Announcements
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Press Kit
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -71,19 +71,19 @@ const Footer = () => {
             <h3 className="s text-black font-bold">FAQ</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                General Questions
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Account Information
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Product Inquiries
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Technical Support
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Troubleshooting
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -91,19 +91,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Terms and Conditions</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                General Terms
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Service Terms
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Sales Terms
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Returns and Exchanges
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Warranty Information
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -111,19 +111,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Privacy</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Data Protection
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Privacy Policy
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Confidentiality
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Information Security
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                User Consent
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -131,19 +131,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Cookies</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Cookie Policy
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Preferences
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Opt-out Options
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Third-Party Cookies
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Cookie Settings
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -151,19 +151,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Terms of Use</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                User Agreemen
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Acceptable Use
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Site Policies
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Content Guidelines
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Intellectual Property Rights
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -171,19 +171,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Contact</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Customer Support
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Feedback
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Reach Us
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Sales Inquiries
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Business Partnerships
+                Lorem Ipsum
               </li>
             </ul>
           </div>
@@ -191,19 +191,19 @@ const Footer = () => {
             <h3 className="text-black font-bold">Payments</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Payment Methods
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Billing Information
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Refunds
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Payment Security
+                Lorem Ipsum
               </li>
               <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
-                Subscription Payments
+                Lorem Ipsum
               </li>
             </ul>
           </div>
