@@ -8,11 +8,11 @@ const Contact = () => {
   return (
     <div className="container">
       <Grid container spacing={{ xs: 4, md: 8 }}>
-        <Grid item xs={12} md={6}>
-          <Map />
-        </Grid>
         <Grid item container xs={12} md={6} alignItems={"center"}>
           <Form />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Map />
         </Grid>
       </Grid>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 import Header from '../../components/header'
 import WithOptionTogglerButton from '../../blocks/pricing/WithOptionTogglerButton/WithOptionTogglerButton'
-import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
+// import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
 import Footer from '../../components/footer'
 import CompareTable from '../../blocks/pricing/CompareTable/CompareTable'
+import CtaWithInputField from '../../blocks/cta/CtaWithInputField/CtaWithInputField'
 
 const Pricing = () => {
     return (
@@ -16,7 +17,8 @@ const Pricing = () => {
                 <CompareTable />
             </div>
             <div className="bg-[#1876D1] py-10 mt-10">
-                <Newsletter />
+                {/* <Newsletter /> */}
+                <CtaWithInputField />
             </div>
             <Footer />
         </div>

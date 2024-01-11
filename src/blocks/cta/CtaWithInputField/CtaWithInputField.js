@@ -24,11 +24,11 @@ const CtaWithInputField = () => {
             variant="h4"
             align={"center"}
             gutterBottom
-            sx={{ fontWeight: 700 }}
+            sx={{ fontWeight: 700, color: "white" }}
           >
             Subscribe to our newsletter
           </Typography>
-          <Typography variant="h6" align={"center"} color={"text.secondary"}>
+          <Typography variant="h6" align={"center"} color={"white"}>
             Don't lose a chance to be among the firsts to know about our
             upcoming news and updates.
           </Typography>
@@ -43,9 +43,9 @@ const CtaWithInputField = () => {
           <FormControl
             fullWidth
             variant="outlined"
-            sx={{ maxWidth: { xs: 1, sm: 400 }, width: 1 }}
+            sx={{ maxWidth: { xs: 1, sm: 400 }, width: 1, color: "white" }}
           >
-            <OutlinedInput placeholder="Enter your email" />
+            <OutlinedInput sx={{color: "white", border: "1px solid white"}} placeholder="Enter your email" />
           </FormControl>
           <Box
             component={Button}

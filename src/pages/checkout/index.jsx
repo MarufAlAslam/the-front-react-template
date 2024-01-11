@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Checkout from "../../demos/ecommerce/views/Checkout/Checkout";
-import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
+// import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
 const CheckoutPage = () => {
   return (
@@ -12,7 +13,8 @@ const CheckoutPage = () => {
         <Checkout />
       </div>
       <div className="bg-[#1876D1] py-10">
-        <Newsletter />
+        {/* <Newsletter /> */}
+        <CtaWithInputField />
       </div>
       <Footer />
     </>

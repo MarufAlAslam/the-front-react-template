@@ -3,7 +3,8 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 // import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import OrderComplete from "../../demos/ecommerce/views/OrderComplete/OrderComplete";
-import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+// import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 
 const OrderCompletePage = () => {
   return (
@@ -13,7 +14,8 @@ const OrderCompletePage = () => {
         <OrderComplete />
       </div>
       <div className="bg-[#1876D1] py-10">
-        <Newsletter />
+        {/* <Newsletter /> */}
+        <CtaWithInputField />
       </div>
       <Footer />
     </>

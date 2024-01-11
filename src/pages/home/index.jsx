@@ -6,8 +6,9 @@ import Header from "../../components/header";
 // import WithBorderedCardsAndBrandColor from "../../blocks/stats/WithBorderedCardsAndBrandColor/WithBorderedCardsAndBrandColor";
 // import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 import Footer from "../../components/footer";
-import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+// import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 import SimpleHeroWithBottomVideo from "../../blocks/heroes/SimpleHeroWithBottomVideo/SimpleHeroWithBottomVideo";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 // import FeatureListWithDesktopAppScreenshot from "../../blocks/features/FeatureListWithDesktopAppScreenshot/FeatureListWithDesktopAppScreenshot";
 
 const Homepage = () => {
@@ -24,7 +25,8 @@ const Homepage = () => {
       <WithBorderedCardsAndBrandColor /> */}
       {/* <CtaWithInputField /> */}
       <div className="bg-[#1876D1] py-10">
-        <Newsletter />
+        {/* <Newsletter /> */}
+        <CtaWithInputField />
       </div>
       <Footer />
     </>

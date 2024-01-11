@@ -3,8 +3,8 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 
-import Main from 'layouts/Main';
-import Container from 'components/Container';
+// import Main from 'layouts/Main';
+// import Container from 'components/Container';
 import { Form } from './components';
 
 const ContactPageCover = () => {
@@ -42,7 +42,7 @@ const ContactPageCover = () => {
     </Box>
   );
   return (
-    <Main>
+    <>
       <Box
         position={'relative'}
         minHeight={'100vh'}
@@ -56,13 +56,13 @@ const ContactPageCover = () => {
           paddingTop={14}
         >
           <Box height={1}>
-            <Container>
+            <>
               <Form />
-            </Container>
+            </>
           </Box>
         </Box>
       </Box>
-    </Main>
+    </>
   );
 };
 

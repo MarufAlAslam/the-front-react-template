@@ -3,8 +3,9 @@ import Header from "../../components/header";
 // import VerticalMinimalDesignedBlogCards from "../../blocks/blog/VerticalMinimalDesignedBlogCards/VerticalMinimalDesignedBlogCards";
 import Footer from "../../components/footer";
 // import HeroReversed from "../../views/DesktopApp/components/Hero/HeroReversed";
-import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+// import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 import PortfolioGrid from "../../views/PortfolioGrid/PortfolioGrid";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 
 const Functions = () => {
   return (
@@ -14,7 +15,8 @@ const Functions = () => {
       {/* <VerticalMinimalDesignedBlogCards items={20} /> */}
       <PortfolioGrid />
       <div className="bg-[#1876D1] py-10 mt-10">
-        <Newsletter />
+        {/* <Newsletter /> */}
+        <CtaWithInputField />
       </div>
       <Footer />
     </>

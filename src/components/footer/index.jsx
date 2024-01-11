@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../../assets/img/logo.svg";
 import { CiLinkedin } from "react-icons/ci";
 import { BsTwitterX } from "react-icons/bs";
-import { FaArrowUp, FaYoutube } from "react-icons/fa";
+import { FaChevronUp, FaComments, FaYoutube } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
@@ -16,8 +16,14 @@ const Footer = () => {
         onClick={backToTop}
         className="back-top w-[50px] h-[50px] bg-blue-500 rounded-full flex justify-center items-center fixed bottom-[20px] right-[20px]"
       >
-        <FaArrowUp className="text-white text-xl" />
+        <FaChevronUp className="text-white text-xl" />
       </button>
+      <a
+        href="/chatbot"
+        className="back-top w-[50px] h-[50px] bg-blue-500 rounded-full flex justify-center items-center fixed bottom-[20px] left-[20px]"
+      >
+        <FaComments className="text-white text-xl" />
+      </a>
       <div className="container">
         <div className="grid grid-cols-7 gap-[30px]">
           <div className="item">

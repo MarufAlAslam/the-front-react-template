@@ -8,7 +8,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Avatar from '@mui/material/Avatar';
 import { useTheme } from '@mui/material/styles';
 
-import Container from 'components/Container';
+// import Container from 'components/Container';
 
 const mock = [
   {
@@ -144,7 +144,7 @@ const Contact = () => {
         overflow: 'hidden',
       }}
     >
-      <Container paddingX={0} paddingY={0} maxWidth={{ sm: 1, md: 1236 }}>
+      <div className='container'>
         <Box
           display={'flex'}
           flexDirection={{ xs: 'column', md: 'row' }}
@@ -156,9 +156,9 @@ const Contact = () => {
             width={1}
             order={{ xs: 2, md: 1 }}
           >
-            <Container>
+            <div className='container'>
               <LeftSide />
-            </Container>
+            </div>
           </Box>
           <Box
             sx={{
@@ -198,7 +198,7 @@ const Contact = () => {
             </Box>
           </Box>
         </Box>
-      </Container>
+      </div>
       <Divider />
     </Box>
   );

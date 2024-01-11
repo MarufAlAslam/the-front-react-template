@@ -1,19 +1,18 @@
 import React from 'react'
-import CompanyTerms from '../../views/CompanyTerms/CompanyTerms'
+import ContactPageCover from '../../views/ContactPageCover/ContactPageCover'
 import Header from '../../components/header'
-// import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
 import Footer from '../../components/footer'
+// import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
 import CtaWithInputField from '../../blocks/cta/CtaWithInputField/CtaWithInputField'
 
-const Terms = () => {
+const Chat = () => {
     return (
         <div>
             <Header />
-            <div className='py-10'>
-                <CompanyTerms />
+            <div className="pt-20">
+                <ContactPageCover />
             </div>
-            <div className="bg-[#1876D1] py-10 mt-10">
-                {/* <Newsletter /> */}
+            <div className="bg-[#1876D1] py-10">
                 <CtaWithInputField />
             </div>
             <Footer />
@@ -21,4 +20,4 @@ const Terms = () => {
     )
 }
 
-export default Terms
+export default Chat

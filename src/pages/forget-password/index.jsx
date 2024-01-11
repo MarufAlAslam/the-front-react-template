@@ -2,7 +2,8 @@ import React from 'react'
 import Header from '../../components/header'
 import ResetPasswordSimpleForm from '../../blocks/authentication/ResetPasswordSimpleForm/ResetPasswordSimpleForm'
 import Footer from '../../components/footer'
-import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
+import CtaWithInputField from '../../blocks/cta/CtaWithInputField/CtaWithInputField'
+// import { Newsletter } from '../../demos/ecommerce/views/Listing/components'
 
 const ForgetPassword = () => {
     return (
@@ -12,7 +13,8 @@ const ForgetPassword = () => {
                 <ResetPasswordSimpleForm />
             </div>
             <div className="bg-[#1876D1] py-10 mt-10">
-                <Newsletter />
+                {/* <Newsletter /> */}
+                <CtaWithInputField />
             </div>
             <Footer />
         </>

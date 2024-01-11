@@ -226,7 +226,7 @@ const Questions = () => {
       </Box>
       <Box>
         <Box marginBottom={2} marginTop={4}>
-          <Typography fontWeight={600} variant={"h4"}>
+          <Typography fontWeight={600} variant={"h5"}>
             {titles[1].title}
           </Typography>
           <Typography color={"gray"} fontWeight={400} variant={"p"}>
@@ -305,7 +305,7 @@ const Questions = () => {
       </Box>
       <Box>
         <Box marginBottom={2} marginTop={4}>
-          <Typography fontWeight={600} variant={"h4"}>
+          <Typography fontWeight={600} variant={"h5"}>
             {titles[2].title}
           </Typography>
           <Typography color={"gray"} fontWeight={400} variant={"p"}>
@@ -386,7 +386,7 @@ const Questions = () => {
       </Box>
       <Box>
         <Box marginBottom={2} marginTop={4}>
-          <Typography fontWeight={600} variant={"h4"}>
+          <Typography fontWeight={600} variant={"h5"}>
             {titles[3].title}
           </Typography>
           <Typography color={"gray"} fontWeight={400} variant={"p"}>

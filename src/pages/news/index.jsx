@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "../../components/header";
-import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+// import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 import Footer from "../../components/footer";
 // import VerticalMinimalDesignedBlogCards from "../../blocks/blog/VerticalMinimalDesignedBlogCards/VerticalMinimalDesignedBlogCards";
 import { Box, Button, Typography } from "@mui/material";
 import { BsArrowRight } from "react-icons/bs";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 
 const News = () => {
   const data = [
@@ -231,7 +232,8 @@ const News = () => {
         </div>
       </div>
       <div className="bg-[#1876D1] py-10">
-        <Newsletter />
+        {/* <Newsletter /> */}
+        <CtaWithInputField />
       </div>
       <Footer />
     </div>

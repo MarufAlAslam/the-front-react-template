@@ -2,8 +2,9 @@ import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import EmptyCart from "../../demos/ecommerce/views/EmptyCart/EmptyCart";
+import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
 // import CtaWithInputField from "../../blocks/cta/CtaWithInputField/CtaWithInputField";
-import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
+// import { Newsletter } from "../../demos/ecommerce/views/Listing/components";
 
 const EmptyCartPage = () => {
   return (
@@ -13,7 +14,8 @@ const EmptyCartPage = () => {
         <EmptyCart />
       </div>
       <div className="bg-[#1876D1] py-10">
-        <Newsletter />
+        {/* <Newsletter /> */}
+        <CtaWithInputField />
       </div>
       <Footer />
     </>
