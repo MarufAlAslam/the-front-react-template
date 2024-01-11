@@ -13,7 +13,7 @@ const Branches = () => {
       {/* <HeroReversed /> */}
       {/* <VerticalMinimalDesignedBlogCards items={20} /> */}
       <PortfolioGrid />
-      <div className="bg-[#1876D1] py-10">
+      <div className="bg-[#1876D1] py-10 mt-10">
         <Newsletter />
       </div>
       <Footer />

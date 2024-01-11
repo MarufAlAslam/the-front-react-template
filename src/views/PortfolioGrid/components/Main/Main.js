@@ -117,16 +117,6 @@ const mock = [
     description: "Quos dolores et quas molestias excepturi",
     title: "Accusantium doloremque",
   },
-  {
-    image: "https://assets.maccarianagency.com/backgrounds/img12.jpg",
-    description: "Et harum quidem rerum facilis est et expedita distinctio",
-    title: "Totam rem aperiam",
-  },
-  {
-    image: "https://assets.maccarianagency.com/backgrounds/img11.jpg",
-    description: "Nam libero tempore, cum soluta nobis est eligendi optio",
-    title: "Uae ab illo inventore",
-  },
 ];
 
 const Main = () => {
