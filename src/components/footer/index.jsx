@@ -6,7 +6,87 @@ const Footer = () => {
   return (
     <footer className="py-10 bg-gray-100">
       <div className="container">
-        <div className="grid grid-cols-5 gap-[30px]">
+        <div className="grid grid-cols-7 gap-[30px]">
+          <div className="item">
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
+            <ul className="mt-5 flex flex-col gap-[5px]">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+            </ul>
+          </div>
+          <div className="item">
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
+            <ul className="mt-5 flex flex-col gap-[5px]">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+            </ul>
+          </div>
+          <div className="item">
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
+            <ul className="mt-5 flex flex-col gap-[5px]">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+            </ul>
+          </div>
+          <div className="item">
+            <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
+            <ul className="mt-5 flex flex-col gap-[5px]">
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+              <li className="text-black text-sm font-medium opacity-50 hover:opacity-100 hover:text-[#1876D1] cursor-pointer">
+                Lorem Ipsum
+              </li>
+            </ul>
+          </div>
           <div className="item">
             <h3 className="text-black font-bold">Lorem Ipsum Title</h3>
             <ul className="mt-5 flex flex-col gap-[5px]">
