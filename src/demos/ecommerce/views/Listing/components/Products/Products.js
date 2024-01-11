@@ -132,7 +132,7 @@ const Products = () => {
   return (
     <Grid container spacing={{ xs: 4, md: 2 }}>
       {mock.map((item, i) => (
-        <Grid item xs={12} sm={6} md={4} key={i}>
+        <Grid item xs={12} sm={6} md={3} key={i}>
           <Box display={"block"} width={1} height={1}>
             <Card
               sx={{

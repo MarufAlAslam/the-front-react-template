@@ -35,7 +35,7 @@ const SidebarFilters = ({ children }) => {
       <Box marginLeft={{ xs: 0, md: 4 }} width={1}>
         <Topbar onSidebarOpen={handleSidebarOpen} />
         <Box paddingY={4}>{children}</Box>
-        <Box display={"flex"} justifyContent={"center"} width={1}>
+        <Box display={"flex"} justifyContent={"end"} width={1}>
           <div className="pb-10">
             <Pagination count={10} size={"large"} color="primary" />
           </div>

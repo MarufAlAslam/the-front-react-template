@@ -219,8 +219,8 @@ const News = () => {
 
                   <p>{item.description}</p>
 
-                  <div className="text-right">
-                    <button className="text-[#1876D1] flex border-[#1876D1] border-0 justify-end items-center gap-2 ml-auto py-2 rounded-[10px]">
+                  <div className="text-left mt-3">
+                    <button className="text-[#1876D1] flex border-[#1876D1] border-0 justify-end items-center gap-2 py-2 rounded-[10px]">
                       Read more <BsArrowRight />
                     </button>
                   </div>
